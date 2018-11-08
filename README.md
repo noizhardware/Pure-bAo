@@ -4,4 +4,4 @@
 
 ### TODO
   * write nice -help files, it's just a big messy folder at the moment :/, the helpfiles are just copies of the abstractions
-  * write an index here
+  * write an index here (divide in categories?)
