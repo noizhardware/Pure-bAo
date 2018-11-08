@@ -1,0 +1,7 @@
+#N canvas 907 351 450 300 10;
+#X obj 148 63 inlet~;
+#X obj 148 167 outlet~;
+#X text 269 89 full-wave rectifier;
+#X obj 148 112 diode~ 2;
+#X connect 0 0 3 0;
+#X connect 3 0 1 0;

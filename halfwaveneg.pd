@@ -1,0 +1,12 @@
+#N canvas 555 594 450 300 10;
+#X obj 158 73 inlet~;
+#X obj 158 173 outlet~;
+#X text 279 99 half-wave rectifier;
+#X obj 158 124 diode~ 1;
+#X text 281 132 keeps negative part;
+#X obj 159 101 *~ -1;
+#X obj 158 147 *~ -1;
+#X connect 0 0 5 0;
+#X connect 3 0 6 0;
+#X connect 5 0 3 0;
+#X connect 6 0 1 0;

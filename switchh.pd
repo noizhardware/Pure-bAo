@@ -1,0 +1,27 @@
+#N canvas 563 790 450 300 10;
+#X obj 108 145 *~ 0;
+#X obj 188 160 *~ 0;
+#X obj 209 64 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 209 104 == 0;
+#X obj 73 29 inlet~;
+#X obj 150 30 inlet~;
+#X obj 209 34 inlet;
+#X text 245 34 control;
+#X obj 258 71 loadbang;
+#X msg 259 98 1;
+#X obj 144 226 outlet~;
+#X obj 218 228 outlet;
+#X text 271 229 status out;
+#X text 292 95 initialize LEFT pass;
+#X connect 0 0 10 0;
+#X connect 1 0 10 0;
+#X connect 2 0 0 1;
+#X connect 2 0 3 0;
+#X connect 2 0 11 0;
+#X connect 3 0 1 1;
+#X connect 4 0 0 0;
+#X connect 5 0 1 0;
+#X connect 6 0 2 0;
+#X connect 8 0 9 0;
+#X connect 9 0 2 0;

@@ -1,0 +1,16 @@
+#N canvas 0 0 450 300 10;
+#X obj 14 50 inlet;
+#X obj 14 131 outlet;
+#X text 157 71 range 0 / 1;
+#X msg 14 93 1;
+#X msg 43 93 0;
+#X obj 43 72 delay 50;
+#X text 158 53 bang to trigger - 50ms;
+#X obj 88 50 inlet;
+#X text 157 88 second inlet accepts millisecond override;
+#X connect 0 0 3 0;
+#X connect 0 0 5 0;
+#X connect 3 0 1 0;
+#X connect 4 0 1 0;
+#X connect 5 0 4 0;
+#X connect 7 0 5 1;

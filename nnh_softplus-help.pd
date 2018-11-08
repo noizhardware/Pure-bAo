@@ -1,0 +1,16 @@
+#N canvas 970 533 450 300 10;
+#X text 278 53 softplus function;
+#X obj 72 149 log~;
+#X obj 72 104 exp~;
+#X obj 180 109 expr log(1+exp($f1));
+#X obj 72 127 +~ 1;
+#X obj 71 56 inlet~;
+#X obj 72 175 outlet~;
+#X obj 180 55 inlet;
+#X obj 180 175 outlet;
+#X connect 1 0 6 0;
+#X connect 2 0 4 0;
+#X connect 3 0 8 0;
+#X connect 4 0 1 0;
+#X connect 5 0 2 0;
+#X connect 7 0 3 0;

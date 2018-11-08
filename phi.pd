@@ -1,0 +1,15 @@
+#N canvas 651 436 450 300 10;
+#X obj 63 94 sqrt;
+#X msg 63 73 5;
+#X obj 63 115 + 1;
+#X obj 63 136 / 2;
+#X text 127 123 outputs the PHI;
+#X obj 63 53 bang;
+#X obj 63 31 inlet;
+#X obj 63 159 outlet;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 3 0 7 0;
+#X connect 5 0 1 0;
+#X connect 6 0 5 0;
