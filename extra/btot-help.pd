@@ -1,16 +1,43 @@
-#N canvas 0 0 450 300 10;
-#X obj 14 50 inlet;
-#X obj 14 131 outlet;
-#X text 157 71 range 0 / 1;
-#X msg 14 93 1;
-#X msg 43 93 0;
-#X obj 43 72 delay 50;
-#X text 158 53 bang to trigger - 50ms;
-#X obj 88 50 inlet;
-#X text 157 88 second inlet accepts millisecond override;
-#X connect 0 0 3 0;
-#X connect 0 0 5 0;
-#X connect 3 0 1 0;
-#X connect 4 0 1 0;
-#X connect 5 0 4 0;
-#X connect 7 0 5 1;
+#N canvas 798 340 840 467 10;
+#X obj 449 331 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 386 325 \; pd dsp \$1;
+#X obj 386 263 loadbang;
+#X obj 403 284 s lb;
+#X obj 445 264 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 386 303 1;
+#X msg 424 303 0;
+#X text 281 98 Pure-bAo abstractions library - Alessio Occhiodoro 2018
+;
+#X text 281 112 https://www.youtube.com/c/minijackaudio;
+#X obj 123 109 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X floatatom 180 198 5 0 0 0 - - -;
+#X msg 132 133 random message;
+#X floatatom 142 155 5 0 0 0 - - -;
+#X text 282 142 BTOT iperforms Bang TO Trigger conversion \, simulation
+of the analog domain.;
+#X obj 123 245 btot;
+#X text 280 167 Any event entering the left inlet triggers a 50ms digital
+trigger on the outlet (0 to 1 state change).;
+#X floatatom 144 288 5 0 0 0 - - -;
+#X obj 123 288 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 89 288 dac~;
+#X text 281 196 Right inlet overrides trigger duration (in ms).;
+#X connect 2 0 3 0;
+#X connect 2 0 5 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 5 0 0 0;
+#X connect 6 0 1 0;
+#X connect 6 0 0 0;
+#X connect 9 0 14 0;
+#X connect 10 0 14 1;
+#X connect 11 0 14 0;
+#X connect 12 0 14 0;
+#X connect 14 0 16 0;
+#X connect 14 0 17 0;
+#X connect 14 0 18 0;
+#X connect 14 0 18 1;

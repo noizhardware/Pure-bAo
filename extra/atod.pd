@@ -1,9 +1,8 @@
-#N canvas 0 0 450 300 10;
+#N canvas 248 370 450 300 10;
 #X obj 95 75 snapshot~;
-#X obj 139 52 bang~;
-#X obj 82 34 inlet~;
-#X obj 113 184 outlet;
-#X text 223 124 converts an analog signal to numbers;
+#X obj 153 49 bang~;
+#X obj 96 38 inlet~;
+#X obj 95 103 outlet;
 #X connect 0 0 3 0;
 #X connect 1 0 0 0;
 #X connect 2 0 0 0;

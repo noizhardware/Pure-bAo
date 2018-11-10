@@ -3,26 +3,31 @@
 #X floatatom 185 -36 5 0 0 0 - - -;
 #X floatatom 220 -36 5 0 0 0 - - -;
 #X floatatom 255 -36 5 0 0 0 - - -;
-#X obj 202 39 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 370 91 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
-#X msg 202 58 \; pd dsp \$1;
-#X obj 202 11 loadbang;
+#X msg 307 85 \; pd dsp \$1;
+#X obj 307 23 loadbang;
 #X obj 118 86 dac~;
-#X obj 223 38 s lb;
-#X obj 269 23 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 324 44 s lb;
+#X obj 366 24 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 118 67 *~ 1;
-#X obj 114 165 output~;
-#X obj 114 141 *~ 1;
+#X obj 399 183 output~;
+#X obj 399 159 *~ 1;
 #X obj 82 -8 adc~;
+#X msg 307 63 1;
+#X msg 345 63 0;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
-#X connect 4 0 5 0;
-#X connect 6 0 4 0;
 #X connect 6 0 8 0;
+#X connect 6 0 14 0;
 #X connect 9 0 8 0;
 #X connect 10 0 7 0;
 #X connect 10 0 7 1;
 #X connect 12 0 11 0;
 #X connect 12 0 11 1;
+#X connect 14 0 5 0;
+#X connect 14 0 4 0;
+#X connect 15 0 5 0;
+#X connect 15 0 4 0;

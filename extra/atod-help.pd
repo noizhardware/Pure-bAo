@@ -1,9 +1,31 @@
-#N canvas 0 0 450 300 10;
-#X obj 95 75 snapshot~;
-#X obj 139 52 bang~;
-#X obj 82 34 inlet~;
-#X obj 113 184 outlet;
-#X text 223 124 converts an analog signal to numbers;
-#X connect 0 0 3 0;
-#X connect 1 0 0 0;
-#X connect 2 0 0 0;
+#N canvas 929 432 790 582 10;
+#X obj 406 223 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 343 217 \; pd dsp \$1;
+#X obj 343 155 loadbang;
+#X obj 360 176 s lb;
+#X obj 402 156 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 343 195 1;
+#X msg 381 195 0;
+#X text 234 21 Pure-bAo abstractions library - Alessio Occhiodoro 2018
+;
+#X text 234 35 https://www.youtube.com/c/minijackaudio;
+#X text 232 65 ATOD performs Analog TO Digital conversion.;
+#X text 233 84 A signal in the inlet is converted in a stream of floating
+point values on the outlet at DSP-cycle frequency.;
+#X obj 91 132 atod;
+#X obj 91 86 osc~ 1;
+#X floatatom 91 192 5 0 0 0 - - -;
+#X obj 140 195 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 8778 1;
+#X connect 2 0 3 0;
+#X connect 2 0 5 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 5 0 0 0;
+#X connect 6 0 1 0;
+#X connect 6 0 0 0;
+#X connect 11 0 13 0;
+#X connect 11 0 14 0;
+#X connect 12 0 11 0;
