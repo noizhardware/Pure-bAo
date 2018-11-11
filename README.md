@@ -66,6 +66,7 @@
 * [nnh_leakyrelu]
 * [nnh_ramp]
 * [nnh_softplus]
+* [nnh_elu]
 
 **MATH**
 * [phi]

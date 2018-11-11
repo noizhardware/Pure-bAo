@@ -21,6 +21,7 @@
 #X obj 948 449 *~ -1;
 #X obj 948 471 *~ 0.01;
 #X obj 1093 438 atod;
+#X text 472 240 needs sigpack externals;
 #X connect 0 0 2 0;
 #X connect 0 0 3 0;
 #X connect 0 1 5 0;
