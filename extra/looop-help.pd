@@ -1,47 +1,57 @@
-#N canvas 0 0 2556 1357 10;
-#X obj 146 304 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#N canvas 730 0 1821 1348 10;
+#X obj 766 357 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X msg 703 351 \; pd dsp \$1;
+#X obj 703 289 loadbang;
+#X obj 720 310 s lb;
+#X obj 762 290 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 84 258 stop;
-#X msg 37 258 start;
-#X obj 29 138 openpanel;
-#X obj 29 119 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
-#X obj 178 134 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X msg 703 329 1;
+#X msg 741 329 0;
+#X text 592 77 Pure-bAo abstractions library - Alessio Occhiodoro 2018
+;
+#X text 592 91 https://www.youtube.com/c/minijackaudio;
+#X obj 103 552 dac~;
+#X obj 104 503 *~ 0;
+#X obj 215 400 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 11100 1;
+#X obj 105 300 looop;
+#X obj 105 124 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 29 184 set open D:/SAMPLES/drumLoopz/bob01.wav;
-#X msg 29 161 set set open \$1;
-#X obj 137 108 t b b;
-#X msg 29 212 open D:/SAMPLES/drumLoopz/bob01.wav;
-#X obj 170 304 t b b;
-#X text -5 90 bang to load your own loop;
-#X obj -14 40 inlet;
-#X obj 74 42 inlet;
-#X obj 135 43 inlet;
-#X text 345 66 BANG:;
-#X text 297 88 load loop - START - STOP;
-#X obj 28 287 readsf~ 2;
-#X obj 29 357 outlet~;
-#X obj 85 357 outlet~;
-#X obj 153 244 t b b;
-#X connect 0 0 10 0;
-#X connect 1 0 17 0;
-#X connect 2 0 17 0;
-#X connect 3 0 7 0;
+#X obj 132 267 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 123 223 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 130 131 from your filesystem;
+#X obj 119 530 *~ 0;
+#X text 591 144 LOOOP is a simple stereo audio file looping system
+;
+#X text 148 222 bang/trigger to start looping;
+#X text 157 267 bang/trigger to stop looping;
+#X obj 132 342 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 155 340 outputs a BANG everytime the loop ENDS;
+#X msg 114 175 snd/THEAMEN.wav;
+#X text 130 115 bang/trigger here to load an audio file;
+#X text 211 176 ...or use a message in th esecond inlet to set a file
+;
+#X text 590 165 All inputs (except the second) accept any type of signal
+and use them as triggers;
+#X connect 2 0 3 0;
+#X connect 2 0 5 0;
 #X connect 4 0 3 0;
-#X connect 5 0 6 0;
-#X connect 6 0 9 0;
-#X connect 7 0 6 0;
-#X connect 7 0 8 0;
-#X connect 8 0 9 0;
-#X connect 8 1 5 0;
-#X connect 9 0 17 0;
-#X connect 10 0 2 0;
-#X connect 10 1 9 0;
-#X connect 12 0 4 0;
-#X connect 13 0 20 0;
-#X connect 14 0 1 0;
-#X connect 17 0 18 0;
-#X connect 17 1 19 0;
-#X connect 17 2 0 0;
-#X connect 20 0 2 0;
-#X connect 20 1 9 0;
+#X connect 5 0 1 0;
+#X connect 5 0 0 0;
+#X connect 6 0 1 0;
+#X connect 6 0 0 0;
+#X connect 10 0 9 0;
+#X connect 11 0 10 1;
+#X connect 11 0 17 1;
+#X connect 12 0 10 0;
+#X connect 12 1 17 0;
+#X connect 12 2 21 0;
+#X connect 13 0 12 0;
+#X connect 14 0 12 3;
+#X connect 15 0 12 2;
+#X connect 17 0 9 1;
+#X connect 23 0 12 1;
