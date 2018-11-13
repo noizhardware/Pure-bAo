@@ -1,5 +1,5 @@
 #N canvas 929 432 790 582 10;
-#X obj 406 223 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 406 223 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X msg 343 217 \; pd dsp \$1;
 #X obj 343 155 loadbang;
@@ -15,10 +15,10 @@
 #X text 233 84 A signal in the inlet is converted in a stream of floating
 point values on the outlet at DSP-cycle frequency.;
 #X obj 91 132 atod;
-#X obj 91 86 osc~ 1;
 #X floatatom 91 192 5 0 0 0 - - -;
 #X obj 140 195 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 8778 1;
+-1 -1 10835 1;
+#X obj 91 86 osc~ 0.5;
 #X connect 2 0 3 0;
 #X connect 2 0 5 0;
 #X connect 4 0 3 0;
@@ -26,6 +26,6 @@ point values on the outlet at DSP-cycle frequency.;
 #X connect 5 0 0 0;
 #X connect 6 0 1 0;
 #X connect 6 0 0 0;
+#X connect 11 0 12 0;
 #X connect 11 0 13 0;
-#X connect 11 0 14 0;
-#X connect 12 0 11 0;
+#X connect 14 0 11 0;
