@@ -1,0 +1,145 @@
+#N canvas 382 280 1668 967 10;
+#X obj 212 109 selectorrrrrrr;
+#X obj 212 52 osc~ 0.5;
+#X obj 689 382 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X msg 626 376 \; pd dsp \$1;
+#X obj 626 314 loadbang;
+#X obj 643 335 s lb;
+#X obj 685 315 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 626 354 1;
+#X msg 664 354 0;
+#X text 526 71 Pure-bAo abstractions library - Alessio Occhiodoro 2018
+;
+#X text 526 85 https://www.youtube.com/c/minijackaudio;
+#X obj 322 139 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 322 157 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 322 176 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 322 194 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 322 212 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 322 230 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 322 249 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 322 267 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 322 285 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 322 303 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 83 171 selectorrrrrrr;
+#X obj 83 52 osc~ 0.5;
+#X obj 193 201 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 193 219 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 193 238 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 193 256 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 193 274 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 193 292 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 193 311 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 193 329 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 193 347 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 193 365 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 100 75 osc~ 0.2;
+#X obj 84 100 *~;
+#X obj 98 120 osc~ 0.3;
+#X obj 84 141 *~;
+#X obj 84 531 selectorrrrrrr;
+#X obj 39 592 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 56 592 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 73 592 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 90 592 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 107 592 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 124 592 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 141 592 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 158 592 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 175 592 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 192 592 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 84 471 phasor~ 0.5;
+#X obj 322 321 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 193 383 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 209 592 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 525 158 and splits it into 11 bangs \, like a LED vu-meter
+would do.;
+#X text 525 142 SELECTORRRRRRR(it's got 7 R's) takes a [-1 | +1] signal
+;
+#X obj 84 490 *~ 2;
+#X obj 84 509 -~ 1;
+#X text 223 529 Can be used as a voltage-controlled sequencer.;
+#X connect 0 0 11 0;
+#X connect 0 1 12 0;
+#X connect 0 2 13 0;
+#X connect 0 3 14 0;
+#X connect 0 4 15 0;
+#X connect 0 5 16 0;
+#X connect 0 6 17 0;
+#X connect 0 7 18 0;
+#X connect 0 8 19 0;
+#X connect 0 9 20 0;
+#X connect 0 10 49 0;
+#X connect 1 0 0 0;
+#X connect 4 0 5 0;
+#X connect 4 0 7 0;
+#X connect 6 0 5 0;
+#X connect 7 0 3 0;
+#X connect 7 0 2 0;
+#X connect 8 0 3 0;
+#X connect 8 0 2 0;
+#X connect 21 0 23 0;
+#X connect 21 1 24 0;
+#X connect 21 2 25 0;
+#X connect 21 3 26 0;
+#X connect 21 4 27 0;
+#X connect 21 5 28 0;
+#X connect 21 6 29 0;
+#X connect 21 7 30 0;
+#X connect 21 8 31 0;
+#X connect 21 9 32 0;
+#X connect 21 10 50 0;
+#X connect 22 0 34 0;
+#X connect 33 0 34 1;
+#X connect 34 0 36 0;
+#X connect 35 0 36 1;
+#X connect 36 0 21 0;
+#X connect 37 0 38 0;
+#X connect 37 1 39 0;
+#X connect 37 2 40 0;
+#X connect 37 3 41 0;
+#X connect 37 4 42 0;
+#X connect 37 5 43 0;
+#X connect 37 6 44 0;
+#X connect 37 7 45 0;
+#X connect 37 8 46 0;
+#X connect 37 9 47 0;
+#X connect 37 10 51 0;
+#X connect 48 0 54 0;
+#X connect 54 0 55 0;
+#X connect 55 0 37 0;

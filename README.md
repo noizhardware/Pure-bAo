@@ -47,7 +47,7 @@
 * [onlyonce]
 * [inve]
 * [invertbin]
-* [selector]
+* [selectorrrrrrr] (it's got 7 R's)
 
 **SIGNAL CONVERSION**
 * [btot]
