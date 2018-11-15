@@ -3,9 +3,8 @@
 ---
 
 ### TODO
-  * write nice -help files, it's just a big messy folder at the moment :/, the helpfiles are just copies of the abstractions (there is some documentation in some of the patches themselves, tho)
-
-  * add "~" to signal related objects
+  * I'm writing nice -help files, and debugging/tidying the abstractions in the process, some helpfiles are just copies of the abstractions (there is some documentation in some of the patches themselves, tho)
+  * add "~" to signal related objects?
 
 ---
 
