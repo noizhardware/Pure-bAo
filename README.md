@@ -38,6 +38,7 @@
 * [n]
 * [nn]
 * [nanok]
+* [linn]
 * [skop]
 * [seqq]
 
@@ -46,7 +47,6 @@
 * [onlyonce]
 * [inve]
 * [invertbin]
-* [linn]
 * [selector]
 
 **SIGNAL CONVERSION**
