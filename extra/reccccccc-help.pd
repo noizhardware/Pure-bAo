@@ -1,0 +1,43 @@
+#N canvas 343 367 923 601 10;
+#X obj 595 392 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X msg 532 386 \; pd dsp \$1;
+#X obj 532 324 loadbang;
+#X obj 549 345 s lb;
+#X obj 591 325 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 532 364 1;
+#X msg 570 364 0;
+#X text 426 33 Pure-bAo abstractions library - Alessio Occhiodoro 2018
+;
+#X text 426 47 https://www.youtube.com/c/minijackaudio;
+#X obj 138 91 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 98 116 start;
+#X msg 87 140 stop;
+#X text 426 72 RECC is a multitrack recording utility.;
+#X text 425 132 First and only argument sets the number of multitrack
+channels \, that will determine the number of signal inlets after the
+first one.;
+#X text 426 92 First inlet accepts a BANG to select/open a destination
+.wav file \, and [start( and [stop( messages to start and stop recording.
+;
+#X obj 138 164 reccccccc 2;
+#X obj 170 115 osc~ 432;
+#X obj 201 140 osc~ 567;
+#X text 25 67 try opening a .wav file as recording destination;
+#X text 423 192 AT THE MOMENT YOU CANNOT USE MULTIPLE INSTANCES OF
+THE reccccccc MODULE IN THE SAME PATCH. (but why would you need it?)
+;
+#X connect 2 0 3 0;
+#X connect 2 0 5 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 5 0 0 0;
+#X connect 6 0 1 0;
+#X connect 6 0 0 0;
+#X connect 9 0 15 0;
+#X connect 10 0 15 0;
+#X connect 11 0 15 0;
+#X connect 16 0 15 1;
+#X connect 17 0 15 2;

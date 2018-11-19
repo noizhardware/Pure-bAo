@@ -32,8 +32,7 @@
 **UTILITIES**
 * [bip]
 * [looop]
-* [rec]
-* [recc]
+* [reccccccc] (it's got 7 C's)
 * [n]
 * [nn]
 * [nanok]
