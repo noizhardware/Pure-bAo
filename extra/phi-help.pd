@@ -1,15 +1,33 @@
 #N canvas 651 436 450 300 10;
-#X obj 63 94 sqrt;
-#X msg 63 73 5;
-#X obj 63 115 + 1;
-#X obj 63 136 / 2;
-#X text 127 123 outputs the PHI;
-#X obj 63 53 bang;
-#X obj 63 31 inlet;
-#X obj 63 159 outlet;
-#X connect 0 0 2 0;
-#X connect 1 0 0 0;
+#X obj 406 223 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 343 217 \; pd dsp \$1;
+#X obj 343 155 loadbang;
+#X obj 360 176 s lb;
+#X obj 402 156 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 343 195 1;
+#X msg 381 195 0;
+#X text 234 21 Pure-bAo abstractions library - Alessio Occhiodoro 2018
+;
+#X text 234 35 https://www.youtube.com/c/minijackaudio;
+#X text 232 65 Outputs the PHI number \, the golden ratio.;
+#X text 231 83 Any type of input triggers a PHI at the output;
+#X obj 97 148 phi;
+#X obj 97 223 print;
+#X msg 97 75 666;
+#X symbolatom 120 102 10 0 0 0 - - -;
+#X floatatom 59 55 5 0 0 0 - - -;
+#X floatatom 64 196 5 0 0 0 - - -;
 #X connect 2 0 3 0;
-#X connect 3 0 7 0;
+#X connect 2 0 5 0;
+#X connect 4 0 3 0;
 #X connect 5 0 1 0;
-#X connect 6 0 5 0;
+#X connect 5 0 0 0;
+#X connect 6 0 1 0;
+#X connect 6 0 0 0;
+#X connect 11 0 12 0;
+#X connect 11 0 16 0;
+#X connect 13 0 11 0;
+#X connect 14 0 11 0;
+#X connect 15 0 11 0;
