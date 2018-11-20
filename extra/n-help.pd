@@ -1,4 +1,33 @@
-#N canvas 0 0 450 300 10;
-#X obj 109 48 inlet~;
-#X obj 117 110 outlet~;
-#X connect 0 0 1 0;
+#N canvas 480 526 954 445 10;
+#X obj 406 223 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X msg 343 217 \; pd dsp \$1;
+#X obj 343 155 loadbang;
+#X obj 360 176 s lb;
+#X obj 402 156 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 343 195 1;
+#X msg 381 195 0;
+#X text 234 21 Pure-bAo abstractions library - Alessio Occhiodoro 2018
+;
+#X text 234 35 https://www.youtube.com/c/minijackaudio;
+#X text 233 65 N does nothing \, it's just an utility to help you keep
+patchcords nice and tidy.;
+#X obj 92 75 osc~ 432;
+#X obj 45 123 n;
+#X obj 102 218 dac~;
+#X obj 156 122 n;
+#X obj 102 180 n;
+#X text 233 100 For signals only \, use NN for data;
+#X connect 2 0 3 0;
+#X connect 2 0 5 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 5 0 0 0;
+#X connect 6 0 1 0;
+#X connect 6 0 0 0;
+#X connect 10 0 11 0;
+#X connect 11 0 13 0;
+#X connect 13 0 14 0;
+#X connect 14 0 12 0;
+#X connect 14 0 12 1;
