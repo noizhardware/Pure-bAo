@@ -1,9 +1,36 @@
-#N canvas 534 499 450 300 10;
-#X obj 33 19 inlet;
-#X obj 48 50 phi;
-#X obj 33 104 outlet;
-#X obj 33 81 /;
-#X connect 0 0 1 0;
-#X connect 0 0 3 0;
-#X connect 1 0 3 1;
-#X connect 3 0 2 0;
+#N canvas -8 -8 2560 1357 10;
+#X obj 462 224 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 399 218 \; pd dsp \$1;
+#X obj 399 156 loadbang;
+#X obj 416 177 s lb;
+#X obj 458 157 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 399 196 1;
+#X msg 437 196 0;
+#X text 307 21 Pure-bAo abstractions library - Alessio Occhiodoro 2018
+;
+#X text 307 35 https://www.youtube.com/c/minijackaudio;
+#X floatatom 127 106 5 0 0 0 - - -;
+#X floatatom 127 41 5 0 0 0 - - -;
+#X obj 58 187 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 207 188 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 76 319 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X text 305 65 Divides the input by the PHI number.;
+#X obj 127 74 phidiv;
+#X obj 115 222 phidiv;
+#X connect 2 0 3 0;
+#X connect 2 0 5 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 5 0 0 0;
+#X connect 6 0 1 0;
+#X connect 6 0 0 0;
+#X connect 10 0 15 0;
+#X connect 11 0 16 0;
+#X connect 15 0 9 0;
+#X connect 16 0 12 0;
+#X connect 16 0 13 0;
