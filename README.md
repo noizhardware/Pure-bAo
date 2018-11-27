@@ -24,6 +24,8 @@
 * [switchh]
 
 **TEMPO**
+* [seqq]
+* [clokk]
 * [tapsuper1]
 * [taptempo]
 * [taptime]
@@ -38,7 +40,7 @@
 * [nanok]
 * [linn]
 * [skop]
-* [seqq]
+
 
 **LOGIC**
 * [every]

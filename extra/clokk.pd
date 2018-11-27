@@ -1,0 +1,14 @@
+#N canvas 0 50 450 300 10;
+#X obj 142 133 metro;
+#X obj 151 51 loadbang;
+#X obj 199 113 f \$1;
+#X obj 155 83 t b b;
+#X obj 262 62 inlet;
+#X text 316 59 clock speed override;
+#X obj 141 167 outlet;
+#X connect 0 0 6 0;
+#X connect 1 0 3 0;
+#X connect 2 0 0 1;
+#X connect 3 0 0 0;
+#X connect 3 1 2 0;
+#X connect 4 0 0 1;
