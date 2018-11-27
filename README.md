@@ -4,7 +4,7 @@
 
 ### TODO
   * I'm writing nice -help files, and debugging/tidying the abstractions in the process, some helpfiles are just copies of the abstractions (there is some documentation in some of the patches themselves, tho)
-  * add "~" to signal related objects?
+  * add "~" to signal related objects? (I actually don't like to have to type the tilde every time...)
 
 ---
 
