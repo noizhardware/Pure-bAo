@@ -1,0 +1,47 @@
+#N canvas 1046 512 722 511 10;
+#X obj 53 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 53 65 stop;
+#X msg 63 93 start;
+#X floatatom 132 93 5 0 0 0 - - -;
+#X obj 455 311 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 392 305 \; pd dsp \$1;
+#X obj 392 243 loadbang;
+#X obj 409 264 s lb;
+#X obj 451 244 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 392 283 1;
+#X msg 430 283 0;
+#X text 283 29 Pure-bAo abstractions library - Alessio Occhiodoro 2018
+;
+#X text 283 43 https://www.youtube.com/c/minijackaudio;
+#X obj 70 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 53 249 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 70 249 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 281 73 CLOKK is a simple fast-to-setup clock.;
+#X text 281 91 Basically a [metro] object \, but starts ticking right
+upon creation.;
+#X text 281 119 First and only argument is tempo \, in ms (milliseconds)
+between each bang.;
+#X text 281 153 On the inlet you can feed a float number to change
+tempo \, or use [stop( and [start( messages to.... yep \, start and
+stop the clock.;
+#X obj 53 157 clokk 500;
+#X connect 0 0 14 0;
+#X connect 0 0 15 0;
+#X connect 1 0 20 0;
+#X connect 2 0 20 0;
+#X connect 3 0 20 0;
+#X connect 6 0 7 0;
+#X connect 6 0 9 0;
+#X connect 8 0 7 0;
+#X connect 9 0 5 0;
+#X connect 9 0 4 0;
+#X connect 10 0 5 0;
+#X connect 10 0 4 0;
+#X connect 20 0 0 0;
+#X connect 20 0 13 0;
