@@ -54,7 +54,7 @@
 * [atod]
 
 **CHAOS ELEMENTS**
-* [sh]
+* [shhhh]
 * [shn]
 * [coinflipp]
 * [coinflippg]
