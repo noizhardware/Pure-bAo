@@ -1,8 +1,42 @@
-#N canvas 1122 715 548 300 10;
-#X floatatom 96 232 5 0 0 0 - - -;
+#N canvas 1122 715 674 300 10;
+#X floatatom 83 176 5 0 0 0 - - -;
 #X floatatom 148 139 5 0 0 0 - - -;
-#X obj 226 82 clokk 300;
+#X obj 83 75 clokk 300;
 #X obj 83 138 seqq 5;
+#X obj 83 239 hradio 15 1 1 5 empty empty empty 0 -8 0 10 -262144 -1
+-1 0;
+#X obj 83 217 - 1;
+#X obj 405 234 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 342 228 \; pd dsp \$1;
+#X obj 342 166 loadbang;
+#X obj 359 187 s lb;
+#X obj 401 167 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 342 206 1;
+#X msg 380 206 0;
+#X text 234 21 Pure-bAo abstractions library - Alessio Occhiodoro 2018
+;
+#X text 234 35 https://www.youtube.com/c/minijackaudio;
+#X text 232 65 SEQQ is a simple sequencer.;
+#X text 232 88 Left inlet takes in a bang-clock \, argument initializes
+the sequence lenght \, and a sequence of numbers 1-to-lenght is generated
+at the output.;
+#X text 233 131 Right inlet overrides the sequence lenght.;
+#X obj 44 196 sel 1;
+#X obj 44 239 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X connect 0 0 5 0;
 #X connect 1 0 3 1;
 #X connect 2 0 3 0;
 #X connect 3 0 0 0;
+#X connect 3 0 18 0;
+#X connect 5 0 4 0;
+#X connect 8 0 9 0;
+#X connect 8 0 11 0;
+#X connect 10 0 9 0;
+#X connect 11 0 7 0;
+#X connect 11 0 6 0;
+#X connect 12 0 7 0;
+#X connect 12 0 6 0;
+#X connect 18 0 19 0;
