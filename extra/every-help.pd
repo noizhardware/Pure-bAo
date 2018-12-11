@@ -1,30 +1,43 @@
-#N canvas 333 674 760 300 10;
-#X obj 118 77 inlet;
-#X obj 118 120 f;
-#X obj 158 120 + 1;
-#X obj 118 98 bang;
-#X obj 195 77 inlet;
-#X text 193 60 sequence lenght;
-#X text 117 59 clock;
-#X obj 118 239 outlet;
-#X obj 133 175 - 1;
-#X obj 118 196 ==;
-#X obj 118 218 select 1;
-#X obj 118 153 % \$1;
-#X msg 227 139 0;
-#X obj 227 117 bang;
-#X obj 303 80 inlet;
-#X text 320 98 reset;
-#X connect 0 0 3 0;
-#X connect 1 0 2 0;
-#X connect 1 0 11 0;
-#X connect 2 0 1 1;
-#X connect 3 0 1 0;
-#X connect 4 0 11 1;
-#X connect 8 0 9 1;
-#X connect 9 0 10 0;
-#X connect 10 0 7 0;
-#X connect 11 0 9 0;
-#X connect 12 0 1 0;
-#X connect 13 0 12 0;
-#X connect 14 0 13 0;
+#N canvas 1237 695 760 300 10;
+#X obj 65 35 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 65 244 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 104 119 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 130 117 RESET;
+#X text 83 33 input;
+#X obj 449 242 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 365 260 \; pd dsp \$1;
+#X obj 365 198 loadbang;
+#X obj 382 219 s lb;
+#X obj 424 199 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 365 238 1;
+#X msg 403 238 0;
+#X text 256 21 Pure-bAo abstractions library - Alessio Occhiodoro 2018
+;
+#X text 256 35 https://www.youtube.com/c/minijackaudio;
+#X obj 65 188 every 3;
+#X floatatom 84 77 5 0 0 0 - - -;
+#X text 254 71 EVERY lets a bang thru only every X times.;
+#X text 253 91 X is defined by the creation argument \, and can be
+changed from the central inlet;
+#X text 253 121 Anything (bang-normalled) in the right inlet resets
+the counter.;
+#X msg 110 143 anything;
+#X msg 37 12 random event;
+#X connect 0 0 14 0;
+#X connect 2 0 14 2;
+#X connect 7 0 8 0;
+#X connect 7 0 10 0;
+#X connect 9 0 8 0;
+#X connect 10 0 6 0;
+#X connect 10 0 5 0;
+#X connect 11 0 6 0;
+#X connect 11 0 5 0;
+#X connect 14 0 1 0;
+#X connect 15 0 14 1;
+#X connect 19 0 14 2;
+#X connect 20 0 14 0;
