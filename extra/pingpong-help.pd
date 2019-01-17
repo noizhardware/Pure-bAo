@@ -1,161 +1,90 @@
 #N canvas -8 -8 2560 1357 10;
-#X obj 226 116 pingpong;
+#X obj 226 86 pingpong;
 #X obj 226 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 226 165 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 226 107 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 271 165 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 271 107 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 271 216 pingpong;
-#X obj 271 265 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 271 127 pingpong;
+#X obj 271 147 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 316 265 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 316 147 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 202 216 pingpong;
-#X obj 202 265 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 202 127 pingpong;
+#X obj 202 147 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 247 265 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 247 147 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 282 24 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 226 29 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 278 50 metro 300;
-#X obj 340 330 pingpong;
-#X obj 340 379 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 226 48 metro 300;
+#X obj 340 168 pingpong;
+#X obj 340 190 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 385 379 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 385 190 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 271 330 pingpong;
-#X obj 271 379 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 271 168 pingpong;
+#X obj 271 190 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 316 379 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 316 190 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 188 331 pingpong;
-#X obj 188 380 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 188 169 pingpong;
+#X obj 188 191 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 233 380 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 233 191 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 119 331 pingpong;
-#X obj 119 380 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 119 169 pingpong;
+#X obj 119 191 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 164 380 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 164 191 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 492 443 pingpong;
-#X obj 492 492 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 492 213 pingpong;
+#X obj 492 240 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 537 492 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 537 240 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 423 443 pingpong;
-#X obj 423 492 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 423 213 pingpong;
+#X obj 423 240 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 468 492 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 468 240 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 340 444 pingpong;
-#X obj 340 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 340 214 pingpong;
+#X obj 340 241 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 385 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 385 241 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 271 444 pingpong;
-#X obj 271 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 271 214 pingpong;
+#X obj 271 241 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 316 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 316 241 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 186 443 pingpong;
-#X obj 186 492 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 186 213 pingpong;
+#X obj 186 240 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 231 492 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 231 240 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 117 443 pingpong;
-#X obj 117 492 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 117 213 pingpong;
+#X obj 117 240 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 162 492 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 162 240 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 34 444 pingpong;
-#X obj 34 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 34 214 pingpong;
+#X obj 34 241 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 79 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 79 241 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj -35 444 pingpong;
-#X obj -35 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj -35 214 pingpong;
+#X obj -35 241 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 10 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 10 241 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 929 117 pingpong;
-#X obj 929 69 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 431 83 pingpong;
+#X obj 431 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 929 166 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 431 104 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 974 166 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 974 217 pingpong;
-#X obj 974 266 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 1019 266 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 905 217 pingpong;
-#X obj 905 266 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 950 266 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 981 51 metro 300;
-#X obj 1043 331 pingpong;
-#X obj 1043 380 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 1088 380 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 974 331 pingpong;
-#X obj 974 380 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 1019 380 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 891 332 pingpong;
-#X obj 891 381 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 936 381 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 822 332 pingpong;
-#X obj 822 381 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 867 381 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 1195 444 pingpong;
-#X obj 1195 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 1240 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 1126 444 pingpong;
-#X obj 1126 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 1171 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 1043 445 pingpong;
-#X obj 1043 494 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 1088 494 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 974 445 pingpong;
-#X obj 974 494 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 1019 494 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 889 444 pingpong;
-#X obj 889 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 934 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 820 444 pingpong;
-#X obj 820 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 865 493 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 737 445 pingpong;
-#X obj 737 494 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 782 494 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 668 445 pingpong;
-#X obj 668 494 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 713 494 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 476 104 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X connect 0 0 2 0;
 #X connect 0 1 3 0;
@@ -171,7 +100,6 @@
 #X connect 8 0 21 0;
 #X connect 9 0 18 0;
 #X connect 10 0 11 0;
-#X connect 10 0 58 0;
 #X connect 11 0 1 0;
 #X connect 12 0 13 0;
 #X connect 12 1 14 0;
@@ -208,46 +136,3 @@
 #X connect 48 0 50 0;
 #X connect 48 1 51 0;
 #X connect 49 0 48 0;
-#X connect 50 0 55 0;
-#X connect 51 0 52 0;
-#X connect 52 0 53 0;
-#X connect 52 1 54 0;
-#X connect 53 0 62 0;
-#X connect 54 0 65 0;
-#X connect 55 0 56 0;
-#X connect 55 1 57 0;
-#X connect 56 0 68 0;
-#X connect 57 0 59 0;
-#X connect 58 0 49 0;
-#X connect 59 0 60 0;
-#X connect 59 1 61 0;
-#X connect 60 0 74 0;
-#X connect 61 0 71 0;
-#X connect 62 0 63 0;
-#X connect 62 1 64 0;
-#X connect 63 0 80 0;
-#X connect 64 0 77 0;
-#X connect 65 0 66 0;
-#X connect 65 1 67 0;
-#X connect 66 0 86 0;
-#X connect 67 0 83 0;
-#X connect 68 0 69 0;
-#X connect 68 1 70 0;
-#X connect 69 0 92 0;
-#X connect 70 0 89 0;
-#X connect 71 0 72 0;
-#X connect 71 1 73 0;
-#X connect 74 0 75 0;
-#X connect 74 1 76 0;
-#X connect 77 0 78 0;
-#X connect 77 1 79 0;
-#X connect 80 0 81 0;
-#X connect 80 1 82 0;
-#X connect 83 0 84 0;
-#X connect 83 1 85 0;
-#X connect 86 0 87 0;
-#X connect 86 1 88 0;
-#X connect 89 0 90 0;
-#X connect 89 1 91 0;
-#X connect 92 0 93 0;
-#X connect 92 1 94 0;
