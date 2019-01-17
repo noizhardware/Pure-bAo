@@ -32,6 +32,7 @@
 * [taptime2]
 
 **UTILITIES**
+* [range]
 * [bip]
 * [looop]
 * [reccccccc] (it's got 7 C's)
@@ -48,6 +49,7 @@
 * [inve]
 * [invertbin]
 * [selectorrrrrrr] (it's got 7 R's)
+* [pingpong]
 
 **SIGNAL CONVERSION**
 * [btot]
