@@ -39,6 +39,8 @@
 * [n]
 * [nn]
 * [nanok]
+* [nanok2]
+* [nanok3] - currently supported
 * [linn]
 * [skop]
 
