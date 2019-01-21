@@ -362,13 +362,13 @@
 #X obj 1058 628 ctlin 123;
 #X obj 1197 630 ctlin 124;
 #X obj 122 793 s s3b1;
-#X obj 257 795 s s3b2;
-#X obj 390 792 s s3b3;
-#X obj 525 790 s s3b4;
-#X obj 658 787 s s3b5;
-#X obj 794 787 s s3b6;
-#X obj 929 789 s s3b7;
-#X obj 1065 786 s s3b8;
+#X obj 258 795 s s3b2;
+#X obj 391 792 s s3b3;
+#X obj 526 790 s s3b4;
+#X obj 659 787 s s3b5;
+#X obj 795 787 s s3b6;
+#X obj 930 789 s s3b7;
+#X obj 1066 786 s s3b8;
 #X obj 1190 777 s s3b9;
 #X obj 116 849 ctlin 17 1;
 #X obj 116 874 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
