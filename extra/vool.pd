@@ -1,4 +1,4 @@
-#N canvas 631 581 422 190 10;
+#N canvas 631 581 401 179 10;
 #X obj 15 93 hsl 80 15 0 1 0 0 \$0-vool \$0-set-vool empty 19 7 1 13
 -262144 -1 -1 7900 1;
 #X obj 158 41 inlet~;
