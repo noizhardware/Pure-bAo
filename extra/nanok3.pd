@@ -499,9 +499,9 @@ un toggle 0/1;
 #X text 1259 -115 scene3 fader1 non va \, lo fa muovere nella scena
 1 lol;
 #X obj 1407 463 ctlin 7 1;
-#X obj 1471 432 s s3f2;
-#X obj 1537 432 s s3f3;
-#X obj 1597 433 s s3f4;
+#X obj 1472 432 s s3f2;
+#X obj 1538 432 s s3f3;
+#X obj 1598 433 s s3f4;
 #X obj 1666 432 s s3f5;
 #X obj 1731 433 s s3f6;
 #X obj 1793 430 s s3f7;
