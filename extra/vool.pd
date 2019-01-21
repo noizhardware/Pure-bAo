@@ -1,8 +1,8 @@
 #N canvas 1140 492 467 404 10;
 #X obj 15 93 hsl 80 15 0 1 0 0 \$0-vool \$0-set-vool empty 19 7 1 13
--262144 -1 -1 0 1;
+-262144 -1 -1 7900 1;
 #X obj 163 135 inlet~;
-#X obj 162 261 outlet~;
+#X obj 162 238 outlet~;
 #X obj 162 186 *~ 1;
 #X obj 183 164 r \$0-vool;
 #X obj 268 134 inlet;
