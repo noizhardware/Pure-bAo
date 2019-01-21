@@ -1,14 +1,14 @@
-#N canvas 1140 492 467 404 10;
+#N canvas 631 581 467 404 10;
 #X obj 15 93 hsl 80 15 0 1 0 0 \$0-vool \$0-set-vool empty 19 7 1 13
 -262144 -1 -1 7900 1;
-#X obj 163 135 inlet~;
-#X obj 162 238 outlet~;
-#X obj 162 186 *~ 1;
-#X obj 183 164 r \$0-vool;
-#X obj 268 134 inlet;
-#X obj 268 164 s \$0-set-vool;
-#X msg 324 134 1;
-#X obj 324 112 loadbang;
+#X obj 141 39 inlet~;
+#X obj 140 142 outlet~;
+#X obj 140 90 *~ 1;
+#X obj 161 68 r \$0-vool;
+#X obj 246 38 inlet;
+#X obj 246 68 s \$0-set-vool;
+#X msg 302 38 1;
+#X obj 302 16 loadbang;
 #X connect 1 0 3 0;
 #X connect 3 0 2 0;
 #X connect 4 0 3 1;
