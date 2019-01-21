@@ -373,7 +373,7 @@
 #X obj 116 849 ctlin 17 1;
 #X obj 116 874 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 31;
-#X obj 115 921 s s4b1;
+#X obj 116 921 s s4b1;
 #X text 955 105 la scena 4 ha i pulsanti latching \, e nanok senda
 un toggle 0/1;
 #X obj 238 876 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
@@ -400,14 +400,14 @@ un toggle 0/1;
 #X obj 811 861 ctlin 17 7;
 #X obj 933 863 ctlin 17 8;
 #X obj 1027 865 ctlin 17 9;
-#X obj 237 923 s s4b2;
-#X obj 356 924 s s4b3;
-#X obj 478 926 s s4b4;
-#X obj 569 930 s s4b5;
-#X obj 691 932 s s4b6;
-#X obj 810 933 s s4b7;
-#X obj 932 935 s s4b8;
-#X obj 1026 937 s s4b9;
+#X obj 238 923 s s4b2;
+#X obj 357 924 s s4b3;
+#X obj 479 926 s s4b4;
+#X obj 570 930 s s4b5;
+#X obj 692 932 s s4b6;
+#X obj 811 933 s s4b7;
+#X obj 933 935 s s4b8;
+#X obj 1027 937 s s4b9;
 #X obj 1401 211 ctlin 2;
 #X floatatom 1401 240 5 0 0 0 - - -;
 #X obj 1401 265 s s1f1;
