@@ -1,4 +1,4 @@
-#N canvas 0 0 1680 968 10;
+#N canvas 0 0 2275 1090 10;
 #X obj 643 -89 ctlin;
 #X floatatom 613 -63 5 0 0 0 - - -;
 #X floatatom 648 -63 5 0 0 0 - - -;
@@ -636,6 +636,7 @@ un toggle 0/1;
 #X text 991 -61 B=button F=fader K=knob;
 #X obj 120 372 s s1b1;
 #X obj 256 373 s s1b2;
+#X text 1433 22 da testare \, poi eliminare tutti i number cells!;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
