@@ -205,15 +205,15 @@
 #X text 997 56 s2f4 è il fader 4 della scena 2;
 #X obj 117 -135 float;
 #X obj 156 -135 + 1;
-#X obj 116 -109 mod 2;
-#X obj 125 -76 spigot;
-#X obj 125 -53 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X msg 169 -97 1;
+#X obj 117 -115 mod 2;
+#X obj 84 -93 spigot;
+#X obj 84 -74 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 156 -93 1;
 #X obj 117 -155 t b b;
-#X obj 190 -117 loadbang;
+#X obj 156 -115 loadbang;
 #X obj 117 -176 ctlin 47;
-#X obj 127 -29 s rew;
+#X obj 84 -54 s rew;
 #X obj 268 -134 float;
 #X obj 306 -132 + 1;
 #X obj 266 -112 mod 2;
