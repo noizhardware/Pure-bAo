@@ -191,13 +191,13 @@
 #X obj 1057 429 ctlin 83;
 #X obj 1196 431 ctlin 84;
 #X obj 121 594 s s2b1;
-#X obj 256 596 s s2b2;
-#X obj 389 593 s s2b3;
-#X obj 524 591 s s2b4;
-#X obj 657 588 s s2b5;
-#X obj 793 588 s s2b6;
-#X obj 928 590 s s2b7;
-#X obj 1064 587 s s2b8;
+#X obj 257 592 s s2b2;
+#X obj 390 589 s s2b3;
+#X obj 525 587 s s2b4;
+#X obj 658 584 s s2b5;
+#X obj 794 584 s s2b6;
+#X obj 929 586 s s2b7;
+#X obj 1065 583 s s2b8;
 #X obj 1189 578 s s2b9;
 #X text 992 9 senda blocchetti di controllo \, scena + valore/bang
 ;
