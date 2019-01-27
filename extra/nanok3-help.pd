@@ -14,6 +14,10 @@
 #X text 486 76 ATOD performs Analog TO Digital conversion.;
 #X text 487 95 A signal in the inlet is converted in a stream of floating
 point values on the outlet at DSP-cycle frequency.;
+#X obj 185 108 nanok3;
+#X obj 203 295 r s1f1;
+#X obj 203 322 vsl 15 64 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
 #X connect 2 0 3 0;
 #X connect 2 0 5 0;
 #X connect 4 0 3 0;
@@ -21,3 +25,4 @@ point values on the outlet at DSP-cycle frequency.;
 #X connect 5 0 0 0;
 #X connect 6 0 1 0;
 #X connect 6 0 0 0;
+#X connect 12 0 13 0;
