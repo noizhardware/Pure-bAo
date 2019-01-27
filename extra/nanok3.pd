@@ -637,10 +637,9 @@ un toggle 0/1;
 #X obj 121 372 s s1b1;
 #X obj 257 373 s s1b2;
 #X text 1433 22 da testare \, poi eliminare tutti i number cells!;
-#X obj 45 271 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
-#X floatatom 45 291 5 0 0 0 - - -;
 #X obj 41 222 ctlin 33;
+#X obj 44 284 == 127;
+#X floatatom 44 331 5 0 0 0 - - -;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
@@ -1171,4 +1170,4 @@ un toggle 0/1;
 #X connect 566 0 512 0;
 #X connect 567 0 513 0;
 #X connect 590 0 591 0;
-#X connect 592 0 590 0;
+#X connect 591 0 592 0;
