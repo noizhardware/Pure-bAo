@@ -264,7 +264,7 @@
 #X obj 414 16 t b b;
 #X obj 487 54 loadbang;
 #X obj 121 0 ctlin 49;
-#X obj 130 149 s woo;
+#X obj 128 148 s woo;
 #X obj 271 -3 ctlin 46;
 #X obj 278 145 s stoop;
 #X obj 415 -7 ctlin 44;
