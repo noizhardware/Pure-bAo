@@ -627,7 +627,7 @@ un toggle 0/1;
 #X text 1433 22 da testare \, poi eliminare tutti i number cells!;
 #X obj 64 282 == 127;
 #X obj 114 324 s s1bb1;
-#X obj 257 373 s s1bb2;
+#X obj 257 372 s s1bb2;
 #X obj 390 371 s s1bb3;
 #X obj 525 368 s s1bb4;
 #X obj 658 366 s s1bb5;
