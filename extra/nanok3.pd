@@ -401,7 +401,7 @@ un toggle 0/1;
 #X obj 933 863 ctlin 17 8;
 #X obj 1027 865 ctlin 17 9;
 #X obj 238 921 s s4b2;
-#X obj 357 924 s s4b3;
+#X obj 357 921 s s4b3;
 #X obj 479 926 s s4b4;
 #X obj 570 930 s s4b5;
 #X obj 692 932 s s4b6;
