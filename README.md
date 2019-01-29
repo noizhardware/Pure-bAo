@@ -38,8 +38,8 @@
 * [reccccccc] (it's got 7 C's)
 * [n]
 * [nn]
-* [nanok]
-* [nanok2]
+* [nanok] - deprecated
+* [nanok2] - deprecated
 * [nanok3] - currently supported
 * [linn]
 * [skop]
