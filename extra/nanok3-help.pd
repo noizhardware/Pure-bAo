@@ -1,4 +1,4 @@
-#N canvas -7 0 1278 1348 10;
+#N canvas 1273 0 1278 1348 10;
 #X obj 660 234 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X msg 597 228 \; pd dsp \$1;
@@ -69,9 +69,33 @@ point values on the outlet at DSP-cycle frequency.;
 #X obj 342 229 r s1k7;
 #X obj 428 228 r s1k9;
 #X obj 385 229 r s1k8;
-#X obj 179 490 r s1b1;
-#X obj 179 523 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 179 521 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
+#X obj 179 490 r s1bdb1;
+#X obj 237 521 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 237 490 r s1bdb2;
+#X obj 295 521 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 353 521 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 411 521 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 468 521 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 527 521 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 585 521 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 643 521 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 295 490 r s1bdb3;
+#X obj 353 490 r s1bdb4;
+#X obj 411 490 r s1bdb5;
+#X obj 468 490 r s1bdb6;
+#X obj 527 490 r s1bdb7;
+#X obj 585 490 r s1bdb8;
+#X obj 643 490 r s1bdb9;
 #X connect 2 0 3 0;
 #X connect 2 0 5 0;
 #X connect 4 0 3 0;
@@ -97,4 +121,12 @@ point values on the outlet at DSP-cycle frequency.;
 #X connect 45 0 37 0;
 #X connect 46 0 39 0;
 #X connect 47 0 38 0;
-#X connect 48 0 49 0;
+#X connect 49 0 48 0;
+#X connect 51 0 50 0;
+#X connect 59 0 52 0;
+#X connect 60 0 53 0;
+#X connect 61 0 54 0;
+#X connect 62 0 55 0;
+#X connect 63 0 56 0;
+#X connect 64 0 57 0;
+#X connect 65 0 58 0;
