@@ -1,4 +1,4 @@
-#N canvas 1273 0 1278 1348 10;
+#N canvas -8 -8 2560 1357 10;
 #X obj 660 234 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X msg 597 228 \; pd dsp \$1;
@@ -96,6 +96,15 @@ point values on the outlet at DSP-cycle frequency.;
 #X obj 527 490 r s1bdb7;
 #X obj 585 490 r s1bdb8;
 #X obj 643 490 r s1bdb9;
+#X obj 944 328 ctlin;
+#X floatatom 914 354 5 0 0 0 - - -;
+#X floatatom 949 354 5 0 0 0 - - -;
+#X floatatom 984 354 5 0 0 0 - - -;
+#X text 800 238 upper buttons on my controller are not working \, so
+I couldn't map them \, if you have a korgNANO version 1 \, please push
+the upper buttons and you'll see the CC numbers shown below here \,
+please make a pull request if you can \, or send an email at noizhardware@gmail.com
+and I'll include it in the library \, thanks!;
 #X connect 2 0 3 0;
 #X connect 2 0 5 0;
 #X connect 4 0 3 0;
@@ -130,3 +139,6 @@ point values on the outlet at DSP-cycle frequency.;
 #X connect 63 0 56 0;
 #X connect 64 0 57 0;
 #X connect 65 0 58 0;
+#X connect 66 0 67 0;
+#X connect 66 1 68 0;
+#X connect 66 2 69 0;
