@@ -1,5 +1,5 @@
 #N canvas 304 394 911 475 10;
-#X obj 379 316 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 379 316 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X msg 316 310 \; pd dsp \$1;
 #X obj 316 248 loadbang;
@@ -18,12 +18,15 @@
 #X text 247 119 and outputs a beep at 423Hz \, 2ms Attack \, 50ms release
 \,;
 #X text 241 138 all linear.;
-#X text 247 159 Right inlet overrides frequency.;
 #X obj 89 69 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 146 158 5 0 0 0 - - -;
 #X msg 98 93 random message;
 #X floatatom 108 115 5 0 0 0 - - -;
+#X obj 162 234 bip 80;
+#X obj 162 209 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 247 159 Argument or right inlet override frequency.;
 #X connect 2 0 4 0;
 #X connect 2 0 7 0;
 #X connect 5 0 4 0;
@@ -34,7 +37,9 @@
 #X connect 8 0 1 0;
 #X connect 8 0 0 0;
 #X connect 9 0 6 0;
-#X connect 16 0 9 0;
-#X connect 17 0 9 1;
+#X connect 15 0 9 0;
+#X connect 16 0 9 1;
+#X connect 17 0 9 0;
 #X connect 18 0 9 0;
-#X connect 19 0 9 0;
+#X connect 19 0 6 0;
+#X connect 20 0 19 0;
