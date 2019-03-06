@@ -26,10 +26,10 @@
 #X floatatom 423 -48 5 0 0 0 - - -;
 #X obj 539 -26 phasor~ 1;
 #X obj 566 55 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 7616 1;
+-1 -1 4819 1;
 #X obj 561 34 atod;
 #X obj 595 55 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1266 1;
+-1 -1 11169 1;
 #X obj 604 33 atod;
 #X obj 620 -26 phasor~ 1;
 #X msg 590 -56 0;
@@ -41,10 +41,10 @@
 #X obj 325 -124 *~;
 #X obj 350 -100 *~;
 #X obj 186 -52 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 8477 1;
+-1 -1 4148 1;
 #X obj 186 -77 atod;
 #X obj 608 -127 r lb;
-#X floatatom 498 -64 5 0 0 0 - - -;
+#X floatatom 497 -63 5 0 0 0 - - -;
 #X obj 426 -75 * 50;
 #X msg 333 -210 0;
 #X msg 294 -206 0;
@@ -54,7 +54,7 @@
 #X floatatom 374 111 5 0 0 0 - - -;
 #X obj 255 37 osc~ 80;
 #X obj 258 -39 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 8800 1;
+-1 -1 0 1;
 #X floatatom 217 2 5 0 0 0 - - -;
 #X obj 255 7 linn;
 #X obj 81 -174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -75,7 +75,7 @@
 -1 -1;
 #X obj 160 -199 metro 400;
 #X obj 472 -193 hsl 128 15 -50 50 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 6900 1;
+-262144 -1 -1 0 1;
 #X floatatom 469 -139 5 0 0 0 - - -;
 #X obj 381 -71 spigot;
 #X msg 439 -107 0;
@@ -93,14 +93,13 @@
 #X msg 709 -169 2;
 #X msg 25 121 wet \$1;
 #X obj 33 23 vsl 15 60 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3500 1;
+-1 -1 0 1;
 #X text 13 -9 rev wet;
 #X text 659 -229 phasor2 freq mult;
 #X text 75 -222 note change triggers;
 #X text 491 -82 smoothing;
 #X text 366 95 final filtering;
 #X obj 272 -155 osc~ 0.05;
-#X obj 369 -132 osc~ 0.2;
 #X obj 334 -155 osc~ 0.11;
 #X obj 757 -202 r lb;
 #X obj 785 -161 pi;
@@ -111,11 +110,12 @@
 -1 -1;
 #X text 414 -182 restore automation;
 #X obj 472 -175 hsl 128 15 -50 50 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 8477 1;
+-262144 -1 -1 4148 1;
 #X obj 219 -32 bang;
 #X obj 258 -57 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 7100 1;
+-1 -1 5300 1;
 #X text 277 -72 note override;
+#X obj 369 -132 osc~ 0.01;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
@@ -138,7 +138,7 @@
 #X connect 22 0 21 0;
 #X connect 22 0 23 0;
 #X connect 22 0 73 0;
-#X connect 22 0 96 0;
+#X connect 22 0 95 0;
 #X connect 23 0 25 0;
 #X connect 23 0 32 0;
 #X connect 25 0 24 0;
@@ -159,9 +159,9 @@
 #X connect 39 0 32 1;
 #X connect 39 0 33 1;
 #X connect 40 0 22 0;
-#X connect 41 0 89 1;
+#X connect 41 0 88 1;
 #X connect 42 0 87 1;
-#X connect 43 0 88 1;
+#X connect 43 0 99 1;
 #X connect 44 0 11 0;
 #X connect 44 0 58 0;
 #X connect 45 0 11 1;
@@ -193,7 +193,7 @@
 #X connect 63 0 53 0;
 #X connect 64 0 63 0;
 #X connect 65 0 66 0;
-#X connect 65 0 93 0;
+#X connect 65 0 92 0;
 #X connect 66 0 23 0;
 #X connect 66 0 75 1;
 #X connect 66 0 76 0;
@@ -213,13 +213,13 @@
 #X connect 80 0 56 0;
 #X connect 81 0 80 0;
 #X connect 87 0 34 0;
-#X connect 88 0 35 1;
-#X connect 89 0 34 1;
-#X connect 90 0 77 0;
-#X connect 91 0 74 0;
-#X connect 92 0 91 0;
-#X connect 93 0 68 0;
-#X connect 94 0 69 0;
-#X connect 97 0 61 0;
-#X connect 98 0 97 0;
-#X connect 98 0 55 0;
+#X connect 88 0 34 1;
+#X connect 89 0 77 0;
+#X connect 90 0 74 0;
+#X connect 91 0 90 0;
+#X connect 92 0 68 0;
+#X connect 93 0 69 0;
+#X connect 96 0 61 0;
+#X connect 97 0 96 0;
+#X connect 97 0 55 0;
+#X connect 99 0 35 1;
