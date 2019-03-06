@@ -26,10 +26,10 @@
 #X floatatom 423 -48 5 0 0 0 - - -;
 #X obj 539 -26 phasor~ 1;
 #X obj 566 55 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4739 1;
+-1 -1 8264 1;
 #X obj 561 34 atod;
 #X obj 595 55 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 11089 1;
+-1 -1 1914 1;
 #X obj 604 33 atod;
 #X obj 620 -26 phasor~ 1;
 #X msg 590 -56 0;
@@ -41,7 +41,7 @@
 #X obj 325 -124 *~;
 #X obj 350 -100 *~;
 #X obj 186 -52 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 8145 1;
+-1 -1 2516 1;
 #X obj 186 -77 atod;
 #X obj 608 -127 r lb;
 #X floatatom 498 -64 5 0 0 0 - - -;
@@ -54,7 +54,7 @@
 #X floatatom 374 111 5 0 0 0 - - -;
 #X obj 255 37 osc~ 80;
 #X obj 258 -38 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 6900 1;
+-1 -1 9800 1;
 #X floatatom 217 2 5 0 0 0 - - -;
 #X obj 255 7 linn;
 #X obj 81 -174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -92,7 +92,7 @@
 #X floatatom 670 -127 5 0 0 0 - - -;
 #X msg 709 -169 2;
 #X msg 25 121 wet \$1;
-#X obj 28 20 vsl 15 60 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 33 23 vsl 15 60 0 1 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 900 1;
 #X text 13 -9 rev wet;
 #X text 659 -229 phasor2 freq mult;
