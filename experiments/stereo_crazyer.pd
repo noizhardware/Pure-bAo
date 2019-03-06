@@ -18,7 +18,7 @@
 #X msg 1441 43 0;
 #X obj 963 212 atod;
 #X obj 963 236 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+-1 -1 12700 1;
 #X obj 717 347 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 852 347 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -29,7 +29,7 @@
 #X obj 717 323 threshold~ 0.9 1 -0.9 1;
 #X obj 222 352 atod;
 #X obj 222 376 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 9038 1;
+-1 -1 7716 1;
 #X obj 329 239 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 464 239 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -93,18 +93,16 @@
 #X msg 1250 449 1 3 6 8 0 jap;
 #X floatatom 1120 304 5 0 0 0 - - -;
 #X obj 315 46 hsl 128 15 0.01 3 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 12700 1;
+-1 -1 9400 1;
 #X obj 480 22 hsl 128 15 0.01 3 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 11396 1;
+-1 -1 4300 1;
 #X floatatom 461 77 5 0 0 0 - - -;
 #X floatatom 592 58 5 0 0 0 - - -;
 #X obj 732 81 osc~ 0.2;
 #X obj 756 -21 hsl 128 15 0.01 7 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 400 1;
+-1 -1 12700 1;
 #X floatatom 764 39 5 0 0 0 - - -;
 #X obj 399 251 * 2;
-#X obj 1125 234 + 100;
-#X obj 1129 200 random 2900;
 #X floatatom 206 222 5 0 0 0 - - -;
 #X obj 207 187 + 35;
 #X obj 211 153 random 165;
@@ -125,6 +123,13 @@
 -1 -1;
 #X text 812 480 << glassy thing;
 #X obj 772 481 * 0.7;
+#X obj 434 554 *~ 1;
+#X obj 457 508 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 1125 234 + 50;
+#X obj 370 456 *~ 0.8;
+#X obj 1129 200 random 450;
+#X obj 396 417 +~;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
@@ -152,23 +157,19 @@
 #X connect 23 0 24 0;
 #X connect 25 0 31 0;
 #X connect 25 0 33 0;
-#X connect 25 0 95 0;
-#X connect 25 0 92 0;
+#X connect 25 0 93 0;
+#X connect 25 0 114 0;
 #X connect 26 0 34 0;
 #X connect 26 0 30 0;
-#X connect 26 0 95 0;
-#X connect 26 0 92 0;
+#X connect 26 0 93 0;
+#X connect 26 0 114 0;
 #X connect 27 0 25 0;
 #X connect 27 1 26 0;
 #X connect 28 0 29 0;
-#X connect 29 0 11 0;
-#X connect 29 0 11 1;
-#X connect 29 0 51 0;
-#X connect 29 0 51 1;
+#X connect 29 0 115 0;
 #X connect 30 0 29 1;
 #X connect 31 0 29 1;
-#X connect 32 0 11 1;
-#X connect 32 0 11 0;
+#X connect 32 0 115 1;
 #X connect 33 0 32 1;
 #X connect 34 0 32 1;
 #X connect 35 0 32 0;
@@ -203,7 +204,7 @@
 #X connect 56 0 61 0;
 #X connect 57 0 56 1;
 #X connect 57 0 55 1;
-#X connect 57 0 111 0;
+#X connect 57 0 109 0;
 #X connect 58 0 60 1;
 #X connect 59 0 61 1;
 #X connect 60 0 62 0;
@@ -217,17 +218,17 @@
 #X connect 67 0 62 0;
 #X connect 68 0 67 0;
 #X connect 68 0 64 0;
-#X connect 68 0 98 0;
+#X connect 68 0 96 0;
 #X connect 68 0 63 0;
 #X connect 68 0 66 0;
 #X connect 69 0 62 0;
 #X connect 70 0 69 0;
-#X connect 70 0 99 0;
+#X connect 70 0 97 0;
 #X connect 71 0 57 0;
 #X connect 72 0 71 1;
-#X connect 72 0 96 1;
+#X connect 72 0 94 1;
 #X connect 78 0 71 1;
-#X connect 78 0 96 1;
+#X connect 78 0 94 1;
 #X connect 82 0 71 0;
 #X connect 83 0 85 0;
 #X connect 84 0 86 0;
@@ -237,23 +238,28 @@
 #X connect 88 0 89 0;
 #X connect 89 0 87 0;
 #X connect 90 0 35 0;
-#X connect 91 0 82 0;
+#X connect 91 0 94 0;
 #X connect 92 0 91 0;
-#X connect 93 0 96 0;
-#X connect 94 0 93 0;
-#X connect 95 0 94 0;
-#X connect 96 0 90 0;
-#X connect 96 0 28 0;
-#X connect 97 0 72 0;
-#X connect 98 0 62 0;
+#X connect 93 0 92 0;
+#X connect 94 0 90 0;
+#X connect 94 0 28 0;
+#X connect 95 0 72 0;
+#X connect 96 0 62 0;
+#X connect 98 0 104 0;
+#X connect 99 0 105 0;
 #X connect 100 0 106 0;
-#X connect 101 0 107 0;
-#X connect 102 0 108 0;
-#X connect 103 0 83 0;
-#X connect 104 0 84 0;
-#X connect 105 0 88 0;
-#X connect 109 0 100 0;
-#X connect 109 0 101 0;
-#X connect 109 0 102 0;
-#X connect 111 0 59 1;
-#X connect 111 0 58 1;
+#X connect 101 0 83 0;
+#X connect 102 0 84 0;
+#X connect 103 0 88 0;
+#X connect 107 0 98 0;
+#X connect 107 0 99 0;
+#X connect 107 0 100 0;
+#X connect 109 0 59 1;
+#X connect 109 0 58 1;
+#X connect 110 0 51 1;
+#X connect 110 0 51 0;
+#X connect 111 0 110 1;
+#X connect 112 0 82 0;
+#X connect 113 0 110 0;
+#X connect 114 0 112 0;
+#X connect 115 0 113 0;
