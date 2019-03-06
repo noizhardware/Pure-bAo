@@ -26,24 +26,24 @@
 #X floatatom 423 -48 5 0 0 0 - - -;
 #X obj 539 -26 phasor~ 1;
 #X obj 566 55 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 213 1;
-#X obj 606 33 atod;
+-1 -1 10210 1;
+#X obj 561 34 atod;
 #X obj 595 55 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 6563 1;
-#X obj 635 31 atod;
+-1 -1 3860 1;
+#X obj 604 33 atod;
 #X obj 620 -26 phasor~ 1;
-#X msg 578 -63 0;
-#X obj 616 -75 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X msg 590 -56 0;
+#X obj 608 -106 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 629 -58 0.5;
+#X msg 671 -55 0.5;
 #X obj 466 13 lop~ 30;
 #X obj 489 43 lop~ 30;
 #X obj 325 -124 *~;
 #X obj 360 -90 *~;
-#X obj 184 -49 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 7402 1;
+#X obj 186 -52 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 5564 1;
 #X obj 186 -77 atod;
-#X obj 624 -108 r lb;
+#X obj 608 -127 r lb;
 #X floatatom 507 -95 5 0 0 0 - - -;
 #X obj 426 -75 * 50;
 #X obj 369 -132 osc~ 0.7;
@@ -58,9 +58,15 @@
 #X obj 255 37 osc~ 80;
 #X obj 267 -33 ntof 432 7;
 #X obj 269 -52 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 6900 1;
+-1 -1 7400 1;
 #X floatatom 227 -2 5 0 0 0 - - -;
 #X obj 266 -7 linn;
+#X obj 163 -164 random 128;
+#X obj 137 -203 metro 500;
+#X obj 135 -176 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 107 -207 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
@@ -119,3 +125,7 @@
 #X connect 51 0 53 0;
 #X connect 52 0 51 0;
 #X connect 54 0 50 0;
+#X connect 55 0 52 0;
+#X connect 56 0 57 0;
+#X connect 57 0 55 0;
+#X connect 58 0 56 0;
