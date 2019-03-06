@@ -18,7 +18,7 @@
 #X msg 1441 43 0;
 #X obj 963 212 atod;
 #X obj 963 236 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
+-1 -1 7476 1;
 #X obj 717 347 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 852 347 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -29,7 +29,7 @@
 #X obj 717 323 threshold~ 0.9 1 -0.9 1;
 #X obj 222 352 atod;
 #X obj 222 376 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 7716 1;
+-1 -1 7410 1;
 #X obj 329 239 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 464 239 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -79,7 +79,7 @@
 #X obj 930 471 r lb;
 #X msg 1031 592 wet \$1;
 #X obj 1113 535 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+-1 -1 800 1;
 #X obj 1118 376 scaale;
 #X msg 1250 305 0 2 5 7 9 pentatonic;
 #X msg 1250 409 0 3 5 6 7 10 blues;
@@ -130,6 +130,9 @@
 #X obj 370 456 *~ 0.8;
 #X obj 1129 200 random 450;
 #X obj 396 417 +~;
+#X obj 519 451 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 507 490 bip 50;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
@@ -263,3 +266,6 @@
 #X connect 113 0 110 0;
 #X connect 114 0 112 0;
 #X connect 115 0 113 0;
+#X connect 116 0 117 0;
+#X connect 117 0 51 0;
+#X connect 117 0 51 1;
