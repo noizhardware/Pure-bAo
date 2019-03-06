@@ -18,7 +18,7 @@
 #X msg 1441 43 0;
 #X obj 963 212 atod;
 #X obj 963 236 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+-1 -1 12700 1;
 #X obj 717 347 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 852 347 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -29,7 +29,7 @@
 #X obj 717 323 threshold~ 0.9 1 -0.9 1;
 #X obj 190 303 atod;
 #X obj 188 327 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 5995 1;
+-1 -1 9230 1;
 #X obj 329 239 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 464 239 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -107,7 +107,7 @@
 #X obj 170 187 + 35;
 #X obj 170 165 random 165;
 #X obj 170 250 scaale;
-#X obj 1239 206 r lb;
+#X obj 1265 238 r lb;
 #X msg 819 565 roomsize 0.9;
 #X floatatom 1109 693 5 0 0 0 - - -;
 #X msg 127 18 3;
@@ -137,7 +137,7 @@
 #X obj 203 230 r globalscale;
 #X obj 216 562 atod;
 #X obj 214 586 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 8810 1;
+-1 -1 2506 1;
 #X obj 270 654 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 405 654 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
