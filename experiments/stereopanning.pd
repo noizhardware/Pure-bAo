@@ -26,10 +26,10 @@
 #X floatatom 423 -48 5 0 0 0 - - -;
 #X obj 539 -26 phasor~ 1;
 #X obj 566 55 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 12016 1;
+-1 -1 5814 1;
 #X obj 561 34 atod;
 #X obj 595 55 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 5666 1;
+-1 -1 12164 1;
 #X obj 604 33 atod;
 #X obj 620 -26 phasor~ 1;
 #X msg 590 -56 0;
@@ -41,7 +41,7 @@
 #X obj 325 -124 *~;
 #X obj 350 -100 *~;
 #X obj 186 -52 vsl 15 128 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 10147 1;
+-1 -1 11392 1;
 #X obj 186 -77 atod;
 #X obj 608 -127 r lb;
 #X floatatom 497 -63 5 0 0 0 - - -;
@@ -54,7 +54,7 @@
 #X floatatom 374 111 5 0 0 0 - - -;
 #X obj 255 37 osc~ 80;
 #X obj 258 -39 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 7500 1;
+-1 -1 0 1;
 #X floatatom 217 2 5 0 0 0 - - -;
 #X obj 255 7 linn;
 #X obj 81 -174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -73,7 +73,7 @@
 #X obj 158 -172 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 472 -193 hsl 128 15 -50 50 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 6700 1;
+-262144 -1 -1 900 1;
 #X floatatom 469 -139 5 0 0 0 - - -;
 #X obj 381 -71 spigot;
 #X msg 439 -107 0;
@@ -90,7 +90,7 @@
 #X msg 709 -169 2;
 #X msg 25 121 wet \$1;
 #X obj 33 23 vsl 15 60 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1500 1;
+-1 -1 0 1;
 #X text 13 -9 rev wet;
 #X text 659 -229 phasor2 freq mult;
 #X text 75 -222 note change triggers;
@@ -107,15 +107,15 @@
 -1 -1;
 #X text 414 -182 restore automation;
 #X obj 472 -175 hsl 128 15 -50 50 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 7341 1;
+-262144 -1 -1 11392 1;
 #X obj 219 -32 bang;
 #X obj 258 -57 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 5800 1;
+-1 -1 7400 1;
 #X text 277 -72 note override;
 #X obj 160 -199 metro 700;
 #X obj 83 -201 metro 50;
 #X floatatom 305 1 5 0 0 0 - - -;
-#X text 294 -241 phase decorrelation;
+#X text 293 -231 phase decorrelation;
 #X obj 369 -132 osc~ 0.5;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
