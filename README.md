@@ -22,6 +22,9 @@
 * [multip5]
 * [summer5to1]
 * [switchh]
+* [noorm~]
+* [vool]
+
 
 **TEMPO**
 * [seqq]
@@ -30,9 +33,12 @@
 * [taptempo]
 * [taptime]
 * [taptime2]
+* [metroo]
 
 **UTILITIES**
 * [range]
+* [scaale]
+* [pingpong]
 * [bip]
 * [looop]
 * [reccccccc] (it's got 7 C's)
@@ -42,7 +48,8 @@
 * [nanok2] - deprecated
 * [nanok3] - currently supported
 * [linn]
-* [skop]
+* [skop] (doesn't work with vanilla)
+* [skoop] (vanilla-compatible, but needs work)
 
 
 **LOGIC**
