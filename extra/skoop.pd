@@ -24,6 +24,8 @@
 #X obj 448 231 spigot 1;
 #X msg 120 225 \; skopwindow resize \$1;
 #X obj 499 269 tabwrite~ skopwindow;
+#X text 606 64 todo: solve that you can't use multiple instances because
+of the duplicated array name;
 #X connect 0 0 14 0;
 #X connect 2 0 10 0;
 #X connect 2 0 21 0;
