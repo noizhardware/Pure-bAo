@@ -27,8 +27,7 @@ first one.;
 #X obj 201 140 osc~ 567;
 #X text 25 67 try opening a .wav file as recording destination;
 #X text 423 192 AT THE MOMENT YOU CANNOT USE MULTIPLE INSTANCES OF
-THE reccccccc MODULE IN THE SAME PATCH. (but why would you need it?)
-;
+THE reccccccc MODULE IN THE SAME PATCH.;
 #X connect 2 0 3 0;
 #X connect 2 0 5 0;
 #X connect 4 0 3 0;
@@ -39,5 +38,3 @@ THE reccccccc MODULE IN THE SAME PATCH. (but why would you need it?)
 #X connect 9 0 15 0;
 #X connect 10 0 15 0;
 #X connect 11 0 15 0;
-#X connect 16 0 15 1;
-#X connect 17 0 15 2;
