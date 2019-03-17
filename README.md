@@ -34,6 +34,7 @@
 * [taptime]
 * [taptime2]
 * [metroo]
+* [minutez]
 
 **UTILITIES**
 * [range]
