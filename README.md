@@ -13,7 +13,7 @@
 ---
 
 **AUDIO OPERATORS**
-* [aaaaaaaaaaand]
+* [aaaaaaaaaaand] (it's got 11 A's)
 * [crossfader]
 * [panner]
 * [fullwave]
@@ -22,7 +22,7 @@
 * [multip5]
 * [summer5to1]
 * [switchh]
-* [noorm~]
+* [noorm]
 * [vool]
 
 
@@ -49,8 +49,8 @@
 * [nanok2] - deprecated
 * [nanok3] - currently supported
 * [linn]
+* [skoop]
 * [skop] (doesn't work with vanilla)
-* [skoop] (vanilla-compatible, but needs work)
 
 
 **LOGIC**
