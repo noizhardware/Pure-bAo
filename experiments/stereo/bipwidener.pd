@@ -20,15 +20,15 @@
 #X obj 764 4 key;
 #X floatatom 764 25 5 0 0 0 - - -;
 #X obj 285 290 bip;
-#X obj 480 -3 metroo 200;
-#X obj 480 18 s clock;
+#X obj 419 -43 metroo 200;
+#X obj 419 -22 s clock;
 #X obj 285 266 r clock;
 #X obj 345 339 *~ 1;
 #X obj 346 298 bip;
 #X obj 346 178 r clock;
 #X obj 346 201 del 100;
 #X obj 593 118 vsl 15 128 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
+-1 -1 10210 1;
 #X obj 454 214 bang;
 #X floatatom 483 269 5 0 0 0 - - -;
 #X obj 346 232 del 100;
@@ -36,6 +36,13 @@
 #X obj 593 260 linn;
 #X obj 593 280 atod;
 #X msg 296 135 50;
+#X obj 485 103 shn;
+#X obj 467 78 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 484 125 *~ 100;
+#X obj 484 146 atod;
+#X obj 488 173 change;
+#X obj 460 44 metroo 600;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
@@ -73,3 +80,9 @@
 #X connect 32 0 28 0;
 #X connect 33 0 18 1;
 #X connect 33 0 23 1;
+#X connect 34 0 36 0;
+#X connect 35 0 34 0;
+#X connect 36 0 37 0;
+#X connect 37 0 38 0;
+#X connect 38 0 26 0;
+#X connect 39 0 35 0;
