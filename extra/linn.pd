@@ -1,5 +1,5 @@
 #N canvas 210 525 600 300 10;
-#X obj 124 71 inlet;
+#X obj 124 14 inlet;
 #X obj 169 71 inlet;
 #X obj 124 115 pack;
 #X obj 252 71 loadbang;
@@ -7,6 +7,8 @@
 #X obj 124 193 outlet~;
 #X msg 227 108 50;
 #X obj 252 136 f \$1;
+#X text 218 179 to DEBUG \; when reinitialized from argument skips
+to zero;
 #X connect 0 0 2 0;
 #X connect 1 0 2 1;
 #X connect 2 0 4 0;
