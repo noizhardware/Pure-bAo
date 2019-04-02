@@ -1,4 +1,4 @@
-#N canvas 588 473 866 300 10;
+#N canvas 1095 401 866 636 10;
 #X obj 494 235 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X msg 431 229 \; pd dsp \$1;
@@ -11,7 +11,6 @@
 #X text 333 16 Pure-bAo abstractions library - Alessio Occhiodoro 2018
 ;
 #X text 333 30 https://www.youtube.com/c/minijackaudio;
-#X obj 224 569 dac~;
 #X text 332 59 LINN ramps linearly to left inlet value anytime it changes
 ;
 #X text 331 124 Useful when using digital controls on audio paths.
@@ -37,10 +36,10 @@
 #X connect 5 0 0 0;
 #X connect 6 0 1 0;
 #X connect 6 0 0 0;
-#X connect 12 0 19 0;
-#X connect 13 0 17 0;
-#X connect 15 0 16 0;
-#X connect 16 0 17 1;
-#X connect 17 0 14 0;
-#X connect 17 0 14 1;
-#X connect 19 0 17 1;
+#X connect 11 0 18 0;
+#X connect 12 0 16 0;
+#X connect 14 0 15 0;
+#X connect 15 0 16 1;
+#X connect 16 0 13 0;
+#X connect 16 0 13 1;
+#X connect 18 0 16 1;
