@@ -1,19 +1,25 @@
-#N canvas 210 525 600 300 10;
+#N canvas 539 733 1030 588 10;
 #X obj 124 14 inlet;
 #X obj 169 71 inlet;
 #X obj 124 115 pack;
 #X obj 252 71 loadbang;
 #X obj 124 162 vline~;
-#X obj 124 193 outlet~;
+#X obj 125 289 outlet~;
 #X msg 227 108 50;
 #X obj 252 136 f \$1;
-#X text 218 179 to DEBUG \; when reinitialized from argument skips
+#X text 282 294 to DEBUG \; when reinitialized from argument skips
 to zero;
+#X obj 124 183 atod;
+#X floatatom 157 224 5 0 0 0 - - -;
+#X floatatom 252 157 5 0 0 0 - - -;
 #X connect 0 0 2 0;
 #X connect 1 0 2 1;
 #X connect 2 0 4 0;
 #X connect 3 0 6 0;
 #X connect 3 0 7 0;
 #X connect 4 0 5 0;
+#X connect 4 0 9 0;
 #X connect 6 0 2 1;
 #X connect 7 0 2 1;
+#X connect 7 0 11 0;
+#X connect 9 0 10 0;
