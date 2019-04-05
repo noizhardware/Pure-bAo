@@ -12,17 +12,13 @@
 #X obj 1581 332 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 1526 449 *~ 1;
-#X obj 1472 737 output~;
-#X obj 1472 713 *~ 1;
+#X obj 1528 582 output~;
+#X obj 1528 558 *~ 1;
 #X obj 1572 450 adc~;
 #X msg 1522 371 1;
 #X msg 1560 371 0;
 #X obj 1543 261 key;
 #X floatatom 1543 282 5 0 0 0 - - -;
-#X obj 1009 125 unpackOSC;
-#X obj 1009 102 udpreceive 9000;
-#X obj 1009 149 s osc;
-#X obj 1449 623 osc~ 432;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
@@ -38,6 +34,3 @@
 #X connect 15 0 5 0;
 #X connect 15 0 4 0;
 #X connect 16 0 17 0;
-#X connect 18 0 20 0;
-#X connect 19 0 18 0;
-#X connect 21 0 12 0;
