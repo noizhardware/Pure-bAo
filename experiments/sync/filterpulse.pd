@@ -49,6 +49,9 @@
 #X msg 942 135 0;
 #X obj 843 196 phasor~ 2;
 #X obj 888 34 r lb;
+#X text 949 110 click here to desync;
+#X obj 971 68 metroo 1200;
+#X text 769 52 here to sync;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
