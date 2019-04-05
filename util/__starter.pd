@@ -12,43 +12,13 @@
 #X obj 1581 332 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 1526 449 *~ 1;
-#X obj 542 862 output~;
-#X obj 542 838 *~ 1;
+#X obj 1540 612 output~;
+#X obj 1540 588 *~ 1;
 #X obj 1572 450 adc~;
 #X msg 1522 371 1;
 #X msg 1560 371 0;
 #X obj 1543 261 key;
 #X floatatom 1543 282 5 0 0 0 - - -;
-#X obj 496 211 -~ 0.5;
-#X obj 496 232 *~ 2;
-#X obj 496 190 phasor~ 50;
-#X obj 976 513 scope~ 130 130 256 3 14 -1 1 0 0 0 0 102 255 51 135
-135 135 0;
-#X obj 738 179 osc~ 1;
-#X obj 738 200 halfwave;
-#X obj 500 453 *~;
-#X obj 515 553 lop~ 50;
-#X msg 1140 385 range 1 2;
-#X msg 1206 443 brgb 0 0 255;
-#X msg 1191 423 frgb 0 255 0;
-#X text 1176 406 colors;
-#X msg 1130 358 bufsize \$1;
-#X obj 1132 300 hsl 128 15 5 300 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 400 1;
-#X floatatom 1129 320 5 0 0 0 - - -;
-#X obj 750 273 scope~ 130 130 256 3 128 -1 1 0 0 0 0 102 255 51 135
-135 135 0;
-#X msg 814 98 0;
-#X obj 751 409 scope~ 130 130 256 3 128 -1 1 0 0 0 0 102 255 51 135
-135 135 0;
-#X msg 861 128 0.5;
-#X obj 860 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
-#X obj 661 471 atod;
-#X obj 619 519 range 0 1 10 200;
-#X msg 942 135 0;
-#X obj 843 196 phasor~ 2;
-#X obj 888 34 r lb;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
@@ -59,33 +29,8 @@
 #X connect 10 0 7 1;
 #X connect 12 0 11 0;
 #X connect 12 0 11 1;
-#X connect 12 0 21 0;
 #X connect 14 0 5 0;
 #X connect 14 0 4 0;
 #X connect 15 0 5 0;
 #X connect 15 0 4 0;
 #X connect 16 0 17 0;
-#X connect 18 0 19 0;
-#X connect 19 0 24 0;
-#X connect 20 0 18 0;
-#X connect 22 0 23 0;
-#X connect 23 0 24 1;
-#X connect 23 0 33 0;
-#X connect 24 0 25 0;
-#X connect 25 0 12 0;
-#X connect 26 0 21 0;
-#X connect 27 0 21 0;
-#X connect 28 0 21 0;
-#X connect 30 0 21 0;
-#X connect 31 0 30 0;
-#X connect 31 0 32 0;
-#X connect 34 0 22 1;
-#X connect 36 0 41 1;
-#X connect 37 0 34 0;
-#X connect 37 0 36 0;
-#X connect 38 0 39 0;
-#X connect 39 0 25 1;
-#X connect 40 0 41 1;
-#X connect 41 0 35 0;
-#X connect 41 0 38 0;
-#X connect 42 0 37 0;
