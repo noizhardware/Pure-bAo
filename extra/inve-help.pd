@@ -1,5 +1,5 @@
 #N canvas -8 -8 2560 1357 10;
-#X obj 398 206 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 398 206 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X msg 335 200 \; pd dsp \$1;
 #X obj 335 138 loadbang;
@@ -14,13 +14,15 @@
 #X text 232 65 INVE automatically performs the operation "1 - inlet"
 ;
 #X obj 51 67 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+-1 -1 6350 1;
 #X floatatom 51 203 5 0 0 0 - - -;
 #X obj 51 223 inve;
 #X obj 99 67 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 12600 1;
+-1 -1 6350 1;
 #X floatatom 99 203 5 0 0 0 - - -;
 #X text 233 81 Useful to invert 0-1 ranges in control data;
+#X text 113 123 << 0.5;
+#X text 13 123 0.5 >>;
 #X connect 2 0 3 0;
 #X connect 2 0 5 0;
 #X connect 4 0 3 0;
