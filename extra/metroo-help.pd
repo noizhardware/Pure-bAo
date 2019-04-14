@@ -1,0 +1,50 @@
+#N canvas 1131 214 896 749 10;
+#X obj 535 326 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 472 320 \; pd dsp \$1;
+#X obj 472 258 loadbang;
+#X obj 489 279 s lb;
+#X obj 531 259 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 472 298 1;
+#X msg 510 298 0;
+#X text 366 28 https://www.youtube.com/c/minijackaudio;
+#X text 366 14 Pure-bAo abstractions library - Alessio Occhiodoro 2019
+;
+#X text 364 58 metroo is a flexible and self-starting "metro" object
+;
+#X text 364 102 metroo will start right after creation;
+#X text 365 125 First inlet: "stop" to stop \, bang or "start" to restart
+;
+#X text 365 148 Second inlet overrides speed;
+#X obj 142 146 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 142 101 metroo 400;
+#X text 364 77 Creation argument initializes the speed in ms per division.
+Can be changed dynamically.;
+#X obj 198 70 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 142 47 stop;
+#X msg 157 70 start;
+#X floatatom 199 29 5 0 0 0 - - -;
+#X obj 157 146 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 142 161 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 157 161 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X connect 2 0 3 0;
+#X connect 2 0 5 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 5 0 0 0;
+#X connect 6 0 1 0;
+#X connect 6 0 0 0;
+#X connect 14 0 13 0;
+#X connect 14 0 20 0;
+#X connect 14 0 21 0;
+#X connect 14 0 22 0;
+#X connect 16 0 14 0;
+#X connect 17 0 14 0;
+#X connect 18 0 14 0;
+#X connect 19 0 14 1;
