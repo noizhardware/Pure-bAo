@@ -1,8 +1,10 @@
 #N canvas 0 50 450 300 10;
-#X obj 59 119 print;
+#X obj 59 102 print;
 #X msg 59 80 ------------------------------------------;
-#X obj 59 48 bang;
-#X obj 59 25 inlet;
+#X obj 32 35 inlet;
+#X obj 32 124 outlet;
+#X obj 32 57 t a b;
 #X connect 1 0 0 0;
-#X connect 2 0 1 0;
-#X connect 3 0 2 0;
+#X connect 2 0 4 0;
+#X connect 4 0 3 0;
+#X connect 4 1 1 0;
