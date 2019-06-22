@@ -40,6 +40,8 @@
 * [range]
 * [scaale]
 * [pingpong]
+* [dc]
+* [brk]
 * [bip]
 * [looop]
 * [reccccccc] (it's got 7 C's)
