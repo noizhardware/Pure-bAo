@@ -1,0 +1,7 @@
+#N canvas 0 50 450 300 10;
+#X obj 33 35 inlet~;
+#X obj 33 77 outlet~;
+#X text 99 55 removes DC;
+#X obj 33 56 hip~ 3;
+#X connect 0 0 3 0;
+#X connect 3 0 1 0;
