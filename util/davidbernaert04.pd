@@ -1,7 +1,7 @@
-#N canvas 1273 0 1278 1348 12;
+#N canvas 1273 0 1278 1348 10;
 #X obj 294 512 dac~;
 #X obj 370 486 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 6600 1;
+-1 -1 0 1;
 #X obj 295 447 dc;
 #X obj 295 396 switchh;
 #X obj 346 352 hradio 16 1 0 2 empty empty empty 0 -8 0 10 -262144
@@ -12,7 +12,7 @@
 #X obj 238 145 pitchshiftRealtime;
 #X obj 220 174 dc;
 #X obj 505 111 hsl 128 15 -1 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 8050 1;
+-1 -1 6350 1;
 #X msg 467 110 0;
 #X obj 219 219 *~;
 #X obj 65 196 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
@@ -36,7 +36,7 @@
 #X text 382 354 clean;
 #X obj 220 260 *~;
 #X obj 283 284 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 5900 1;
+-1 -1 0 1;
 #X text 637 41 1/10;
 #X text 639 110 coarse;
 #X obj 506 64 hsl 128 15 -0.2 0.2 0 0 empty empty empty -2 -8 0 10
@@ -75,7 +75,7 @@
 #X obj 289 -109 osc~ 432;
 #X text 683 110 -1 to +1;
 #X obj 664 418 hsl 128 15 -1 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 2287 1;
+-1 -1 8030 1;
 #X obj 660 298 *~;
 #X obj 718 300 sig~;
 #X msg 716 260 1;
