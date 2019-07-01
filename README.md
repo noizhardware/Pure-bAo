@@ -2,13 +2,14 @@
 ###### _Nice little tools for the puredataer's everyday life_
 ---
 
-### TODO
+### TODO :
   * I'm writing nice -help files, and debugging/tidying the abstractions in the process, some helpfiles are just copies of the abstractions (there is some documentation in some of the patches themselves, tho)
   * add "~" to signal related objects? (I actually don't like having to type the tilde every time...)
+  * Add a rolling release system (rolling version number)
 
 ---
 
-## List of all Abstractions:
+## List of all Abstractions (64) :
 
 #### AUDIO OPERATORS
   * `aaaaaaaaaaand` (it's got 11 A's)
