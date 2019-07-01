@@ -53,6 +53,7 @@
 * [linn]
 * [skoop]
 * [skop] (doesn't work with vanilla)
+* [stderr]
 
 
 **LOGIC**
@@ -62,6 +63,7 @@
 * [invertbin]
 * [selectorrrrrrr] (it's got 7 R's)
 * [pingpong]
+* [nor]
 
 **SIGNAL CONVERSION**
 * [btot]
