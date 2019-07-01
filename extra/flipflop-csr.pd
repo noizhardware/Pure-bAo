@@ -1,0 +1,29 @@
+#N canvas 91 327 841 627 10;
+#X obj 205 189 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 268 243 select 1;
+#X obj 205 243 select 0;
+#X obj 205 213 == 0;
+#X obj 205 141 inlet;
+#X obj 205 167 bang;
+#X obj 205 290 outlet;
+#X obj 268 290 outlet;
+#X obj 517 76 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 379 76 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 384 195 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 503 227 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X text 508 248 Q;
+#X text 376 224 !Q;
+#X text 401 55 set;
+#X text 543 58 reset;
+#X connect 0 0 3 0;
+#X connect 1 0 7 0;
+#X connect 2 0 6 0;
+#X connect 3 0 1 0;
+#X connect 3 0 2 0;
+#X connect 4 0 5 0;
+#X connect 5 0 0 0;
