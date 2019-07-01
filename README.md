@@ -66,6 +66,7 @@
 * [nor]
 * [flipflop-sr]
 * [flipflop-csr]
+* [flipflop-esr]
 
 **SIGNAL CONVERSION**
 * [btot]
