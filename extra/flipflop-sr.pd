@@ -1,5 +1,5 @@
 #N canvas 443 477 841 627 10;
-#X obj 118 183 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 118 183 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X text 146 186 Q;
 #X text 306 206 !Q;
@@ -16,6 +16,7 @@
 #X obj 118 203 outlet;
 #X obj 262 204 outlet;
 #X obj 184 109 loadbang;
+#X text 385 102 active-HIGH;
 #X connect 0 0 8 0;
 #X connect 0 0 13 0;
 #X connect 7 0 0 0;
