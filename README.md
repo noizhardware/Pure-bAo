@@ -8,90 +8,88 @@
 
 ---
 
-## List of Abstractions:
+## List of all Abstractions:
 
----
-
-**AUDIO OPERATORS**
-* [aaaaaaaaaaand] (it's got 11 A's)
-* [crossfader]
-* [panner]
-* [fullwave]
-* [halfwave]
-* [halfwaveneg]
-* [multip5]
-* [summer5to1]
-* [switchh]
-* [noorm]
-* [vool]
+#### AUDIO OPERATORS
+  * `aaaaaaaaaaand` (it's got 11 A's)
+  * `crossfader`
+  * `panner`
+  * `fullwave`
+  * `halfwave`
+  * `halfwaveneg`
+  * `multip5`
+  * `summer5to1`
+  * `switchh`
+  * `noorm`
+  * `vool`
 
 
-**TEMPO**
-* [seqq]
-* [clokk]
-* [tapsuper1]
-* [taptempo]
-* [taptime]
-* [taptime2]
-* [metroo]
-* [minutez]
+#### TEMPO
+  * `seqq`
+  * `clokk`
+  * `tapsuper1`
+  * `taptempo`
+  * `taptime`
+  * `taptime2`
+  * `metroo`
+  * `minutez`
 
-**UTILITIES**
-* [range]
-* [scaale]
-* [pingpong]
-* [dc]
-* [brk]
-* [bip]
-* [looop]
-* [reccccccc] (it's got 7 C's)
-* [n]
-* [nn]
-* [nanok] - deprecated
-* [nanok2] - deprecated
-* [nanok3] - currently supported
-* [linn]
-* [skoop]
-* [skop] (doesn't work with vanilla)
-* [stderr]
+#### UTILITIES
+  * `range`
+  * `scaale`
+  * `pingpong`
+  * `dc`
+  * `brk`
+  * `bip`
+  * `looop`
+  * `reccccccc` (it's got 7 C's)
+  * `n`
+  * `nn`
+  * `nanok` **deprecated**
+  * `nanok2` **deprecated**
+  * `nanok3` _currently supported_
+  * `linn`
+  * `skoop`
+  * `skop` (doesn't work with vanilla)
+  * `stderr`
 
 
-**LOGIC**
-* [every]
-* [onlyonce]
-* [inve]
-* [invertbin]
-* [selectorrrrrrr] (it's got 7 R's)
-* [pingpong]
-* [nor]
-* [flipflop-sr]
-* [flipflop-csr]
-* [flipflop-esr]
+#### LOGIC
+  * `every`
+  * `onlyonce`
+  * `inve`
+  * `invertbin`
+  * `selectorrrrrrr` (it's got 7 R's)
+  * `pingpong`
+  * `nor`
+  * `flipflop-sr`
+  * `flipflop-csr`
+  * `flipflop-esr`
 
-**SIGNAL CONVERSION**
-* [btot]
-* [atod]
+#### SIGNAL CONVERSION
+  * `btot`
+  * `atod`
 
-**CHAOS ELEMENTS**
-* [shhhh]
-* [shn]
-* [coinflipp]
-* [coinflippg]
+#### CHAOS ELEMENTS
+  * `shhhh`
+  * `shn`
+  * `coinflipp`
+  * `coinflippg`
 
-**ELEMENTS FOR NEURAL NETWORKS**
-* [neuron01]
-* [neuron3_A]
-* [neuron4_A]
-* [nnh_leakyrelu]
-* [nnh_ramp]
-* [nnh_softplus]
-* [nnh_elu]
+#### ELEMENTS FOR NEURAL NETWORKS
+  * `neuron01`
+  * `neuron3_A`
+  * `neuron4_A`
+  * `nnh_leakyrelu`
+  * `nnh_ramp`
+  * `nnh_softplus`
+  * `nnh_elu`
 
-**MATH**
-* [phi]
-* [phidiv]
-* [phitimes]
-* [phiTRI]
+#### MATH
+  * `phi`
+  * `phidiv`
+  * `phitimes`
+  * `phiTRI`
 
-**OSCILLATORS**
-* [pwwm]
+#### OSCILLATORS
+  * `pwwm`
