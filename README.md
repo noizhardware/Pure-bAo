@@ -64,6 +64,8 @@
 * [selectorrrrrrr] (it's got 7 R's)
 * [pingpong]
 * [nor]
+* [flipflop-sr]
+* [flipflop-csr]
 
 **SIGNAL CONVERSION**
 * [btot]
