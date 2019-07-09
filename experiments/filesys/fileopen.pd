@@ -1,0 +1,13 @@
+#N canvas 0 50 450 300 10;
+#X msg 63 53 \; array1 read test.txt;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array array1 10 float 3;
+#A 0 1 12.4 10 6 9 4 3 16 18 5;
+#X coords 0 0 10 20 200 140 1 0 0;
+#X restore 175 126 graph;
+#X obj 301 56 tabread array1;
+#X floatatom 305 15 5 0 0 0 - - -;
+#X floatatom 299 94 5 0 0 0 - - -;
+#X text 254 15 index>>;
+#X connect 2 0 4 0;
+#X connect 3 0 2 0;
