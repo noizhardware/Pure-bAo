@@ -12,6 +12,7 @@ to zero;
 #X obj 124 183 atod;
 #X floatatom 157 224 5 0 0 0 - - -;
 #X floatatom 252 157 5 0 0 0 - - -;
+#X text 329 328 maybe PACK needs bang on first inlet;
 #X connect 0 0 2 0;
 #X connect 1 0 2 1;
 #X connect 2 0 4 0;
