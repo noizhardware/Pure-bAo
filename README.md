@@ -9,7 +9,7 @@
 
 ---
 
-## List of all Abstractions (64) :
+## List of all Abstractions (65) :
 
 #### AUDIO OPERATORS
   * `aaaaaaaaaaand` (it's got 11 A's)
@@ -36,6 +36,7 @@
   * `minutez`
 
 #### UTILITIES
+  * `ar`
   * `range`
   * `scaale`
   * `pingpong`
