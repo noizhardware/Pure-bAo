@@ -1,24 +1,29 @@
-#N canvas 675 0 1876 1348 10;
-#X obj 1536 177 ctlin;
-#X floatatom 1506 203 5 0 0 0 - - -;
-#X floatatom 1541 203 5 0 0 0 - - -;
-#X floatatom 1576 203 5 0 0 0 - - -;
-#X obj 1585 399 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-1 1;
-#X msg 1522 393 \; pd dsp \$1;
-#X obj 1522 331 loadbang;
-#X obj 1526 468 dac~;
-#X obj 1539 352 s lb;
-#X obj 1581 332 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 1526 449 *~ 1;
-#X obj 1540 612 output~;
-#X obj 1540 588 *~ 1;
-#X obj 1572 450 adc~;
-#X msg 1522 371 1;
-#X msg 1560 371 0;
-#X obj 1543 261 key;
-#X floatatom 1543 282 5 0 0 0 - - -;
+#N canvas 1578 311 435 337 10;
+#X obj 318 46 ctlin;
+#X floatatom 204 166 5 0 0 0 - - -;
+#X floatatom 239 166 5 0 0 0 - - -;
+#X floatatom 274 166 5 0 0 0 - - -;
+#X obj 94 145 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X msg 31 139 \; pd dsp \$1;
+#X obj 31 77 loadbang;
+#X obj 39 199 dac~;
+#X obj 48 98 s lb;
+#X obj 90 78 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 39 180 *~ 1;
+#X obj 205 122 output~;
+#X obj 139 84 *~ 1;
+#X obj 85 181 adc~;
+#X msg 31 117 1;
+#X msg 69 117 0;
+#X obj 307 76 key;
+#X floatatom 306 116 5 0 0 0 - - -;
+#X obj 140 47 inlet~;
+#X obj 201 54 inlet~;
+#X obj 255 43 inlet~;
+#X text 309 99 key;
+#X text 310 165 cc;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
@@ -34,3 +39,7 @@
 #X connect 15 0 5 0;
 #X connect 15 0 4 0;
 #X connect 16 0 17 0;
+#X connect 18 0 12 0;
+#X connect 19 0 11 0;
+#X connect 20 0 11 1;
+#X coords 0 -1 1 1 200 100 1 200 100;
