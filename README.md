@@ -88,6 +88,7 @@
   * `nnh_elu`
 
 #### MATH
+  * `++` `--` `mult` `divi` : reactive math ops
   * `phi`
   * `phidiv`
   * `phitimes`
