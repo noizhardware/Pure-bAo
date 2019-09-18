@@ -24,6 +24,7 @@
 #X obj 255 43 inlet~;
 #X text 309 99 key;
 #X text 310 165 cc;
+#X text 202 99 MONO;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
