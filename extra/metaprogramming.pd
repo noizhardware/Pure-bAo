@@ -1,0 +1,28 @@
+#N canvas 745 79 1821 774 10;
+#N canvas 0 50 450 300 ccc 1;
+#X floatatom 10 10 20 0 0 0 - - -;
+#X obj 10 30 osc~ 50;
+#X obj 10 50 osc~ 50;
+#X text 10 70 porcodio;
+#X connect 0 0 1 0;
+#X restore 534 135 pd ccc;
+#X msg 204 178 \; pd-ccc floatatom 10 10 20 \; pd-ccc obj 10 30 osc~
+50 \; pd-ccc obj 10 50 osc~ 50 \; pd-ccc connect 0 0 1 0 \; pd-ccc
+text 10 70 porcodio \;;
+#X msg 928 114 init [gimme] filename [symbol] [symbol] open [symbol]
+[symbol] quit foo [gimme] dsp [gimme] meters [float] key [gimme] audiostatus
+finderror ping;
+#X msg 632 53 obj [gimme] msg [gimme] floatatom [gimme] symbolatom
+[gimme] text [gimme] graph [gimme] array scalar [gimme] bng [gimme]
+toggle [gimme] vslider [gimme] hslider [gimme] radio [gimme] vumeter
+[gimme] mycnv [gimme] connect [float] [float] [float] [float] restore
+[gimme] write [symbol] [defsymbol] read [symbol] [defsymbol] mergefile
+[symbol] [defsymbol] sort click [float] [float] [float] [float] mouseup
+[float] [float] [float] key [gimme] motion [float] [float] [float]
+print [symbol] menusave menusaveas menuclose [deffloat] saveto [symbol]
+[symbol] cut copy paste duplicate selectall tidy texteditor editmode
+[deffloat] protectmode [deffloat] print [symbol] pop [deffloat] loadbang
+relocate [symbol] [symbol] menufont font [float] [float] [float] find
+[gimme] findagain findparent vis [float] properties [float] [float]
+help [float] [float] arraydialog [symbol] [float] [float] [float] map
+[float] clear intatom [gimme] atom [gimme];
