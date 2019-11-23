@@ -1,0 +1,6 @@
+#N canvas 678 505 450 300 10;
+#X obj 33 29 key;
+#X obj 33 50 select 90;
+#X obj 33 71 outlet;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
