@@ -90,6 +90,7 @@
   * `nnh_elu`
 
 #### MATH
+  * `fract`
   * `sign`
   * `floor`
   * `ceil`
