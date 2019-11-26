@@ -9,7 +9,7 @@
 
 ---
 
-## List of all Abstractions (65) :
+## List of all Abstractions (69) :
 
 #### AUDIO OPERATORS
   * `aaaaaaaaaaand` (it's got 11 A's)
@@ -36,6 +36,8 @@
   * `minutez`
 
 #### UTILITIES
+  * `zed`
+  * `incc`
   * `ar`
   * `range`
   * `scaale`
@@ -88,6 +90,9 @@
   * `nnh_elu`
 
 #### MATH
+  * `sign`
+  * `floor`
+  * `ceil`
   * `++` `--` `mult` `divi` : reactive math ops
   * `phi`
   * `phidiv`
