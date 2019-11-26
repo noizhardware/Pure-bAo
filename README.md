@@ -9,7 +9,7 @@
 
 ---
 
-## List of all Abstractions (69) :
+## List of all Abstractions (70) :
 
 #### AUDIO OPERATORS
   * `aaaaaaaaaaand` (it's got 11 A's)
