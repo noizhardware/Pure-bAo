@@ -1,8 +1,9 @@
-#N canvas 0 50 450 300 10;
+#N canvas 514 333 450 300 10;
 #X msg 31 139 \; pd dsp \$1;
 #X obj 31 77 loadbang;
 #X obj 48 98 s lb;
 #X msg 31 117 1;
+#X msg 0 0 version "201911271302";
 #X connect 1 0 2 0;
 #X connect 1 0 3 0;
 #X connect 3 0 0 0;
