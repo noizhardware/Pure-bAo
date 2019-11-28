@@ -1,0 +1,14 @@
+#N canvas 746 724 1699 585 10;
+#X obj 81 199 inlet;
+#X obj 47 366 timer;
+#X obj 134 256 onlyonce;
+#X obj 81 226 t b b b;
+#X msg 3 5 version "201911290005";
+#X obj 47 387 outlet;
+#X text 274 156 keeps rolling tempo :);
+#X connect 0 0 3 0;
+#X connect 1 0 5 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 0;
+#X connect 3 1 1 1;
+#X connect 3 2 2 0;
