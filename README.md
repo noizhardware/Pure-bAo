@@ -32,6 +32,7 @@
   * `taptempo`
   * `taptime`
   * `taptime2`
+  * `taptime3`
   * `metroo`
   * `minutez`
 
