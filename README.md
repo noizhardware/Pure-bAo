@@ -9,7 +9,7 @@
 
 ---
 
-## List of all Abstractions (72) :
+## List of all Abstractions (73) :
 
 #### AUDIO OPERATORS
   * `aaaaaaaaaaand` (it's got 11 A's)
@@ -37,6 +37,7 @@
   * `minutez`
 
 #### UTILITIES
+  * `oout`
   * `boot`
   * `__starter`
   * `zed`
