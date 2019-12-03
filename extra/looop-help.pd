@@ -1,4 +1,4 @@
-#N canvas 1196 197 1821 1348 10;
+#N canvas 1110 174 1821 1348 10;
 #X obj 659 355 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X msg 596 349 \; pd dsp \$1;
@@ -8,37 +8,32 @@
 -1 -1;
 #X msg 596 327 1;
 #X msg 634 327 0;
-#X text 592 77 Pure-bAo abstractions library - Alessio Occhiodoro 2018
-;
 #X text 592 91 https://www.youtube.com/c/minijackaudio;
 #X obj 101 520 dac~;
 #X obj 102 471 *~ 0;
 #X obj 213 368 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
 #X obj 103 268 looop;
-#X obj 103 92 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
-#X obj 130 235 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 116 195 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X text 128 99 from your filesystem;
+#X text 138 32 from your filesystem;
 #X obj 117 498 *~ 0;
 #X text 591 144 LOOOP is a simple stereo audio file looping system
 ;
-#X text 141 194 bang/trigger to start looping;
-#X text 155 235 bang/trigger to stop looping;
 #X obj 130 310 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X text 153 308 outputs a BANG everytime the loop ENDS;
-#X msg 112 143 snd/THEAMEN.wav;
+#X msg 107 57 snd/THEAMEN.wav;
 #X text 591 210 Second and third outlets accept any type of signal
 and use them as triggers;
 #X text 591 169 First inlet accepts a path/filename to pen \, OR a
 BANG;
 #X text 590 183 to open a dialog and choose a file.;
-#X text 128 83 bang here to load an audio file;
-#X text 209 144 ...or use a message to set the file to open;
+#X text 204 58 ...or use a message to set the file to open;
+#X text 592 77 Pure-bAo abstractions library - Alessio Occhiodoro 2019
+;
+#X msg 125 163 start;
+#X msg 132 195 stop;
+#X msg 96 22 load;
+#X text 134 16 "load" to load an audio file;
 #X connect 2 0 3 0;
 #X connect 2 0 5 0;
 #X connect 4 0 3 0;
@@ -46,14 +41,14 @@ BANG;
 #X connect 5 0 0 0;
 #X connect 6 0 1 0;
 #X connect 6 0 0 0;
-#X connect 10 0 9 0;
-#X connect 11 0 10 1;
-#X connect 11 0 17 1;
-#X connect 12 0 10 0;
-#X connect 12 1 17 0;
-#X connect 12 2 21 0;
-#X connect 13 0 12 0;
-#X connect 14 0 12 2;
-#X connect 15 0 12 1;
-#X connect 17 0 9 1;
-#X connect 23 0 12 0;
+#X connect 9 0 8 0;
+#X connect 10 0 9 1;
+#X connect 10 0 13 1;
+#X connect 11 0 9 0;
+#X connect 11 1 13 0;
+#X connect 11 2 15 0;
+#X connect 13 0 8 1;
+#X connect 17 0 11 0;
+#X connect 23 0 11 0;
+#X connect 24 0 11 0;
+#X connect 25 0 11 0;
