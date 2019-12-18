@@ -35,6 +35,7 @@
   * `taptime3`
   * `metroo`
   * `minutez`
+  * `fragz`
 
 #### UTILITIES
   * `oout`
