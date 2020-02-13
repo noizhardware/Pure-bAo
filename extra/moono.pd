@@ -1,0 +1,7 @@
+#N canvas 317 414 450 300 10;
+#X obj 163 151 throw~ mono;
+#X obj 164 66 inlet~;
+#X obj 132 209 outlet~;
+#X msg 4 3 version "202002131620";
+#X connect 1 0 0 0;
+#X connect 1 0 2 0;

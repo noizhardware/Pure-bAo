@@ -39,6 +39,10 @@
 
 #### UTILITIES
   * `oout`
+  * `moono`
+  * `leeft`
+  * `riight`
+  * `steereo`
   * `boot`
   * `__starter`
   * `zed`
