@@ -1,0 +1,13 @@
+#N canvas 455 587 450 300 10;
+#X obj 83 20 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 13 21 inlet~;
+#X obj 13 42 *~ 0;
+#X obj 13 63 outlet~;
+#X msg 13 123 version "202003061027";
+#X obj 80 -7 inlet;
+#X connect 0 0 2 1;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 5 0 0 0;
+#X coords 0 -1 1 1 140 15 1 80 20;

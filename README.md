@@ -9,7 +9,7 @@
 
 ---
 
-## List of all Abstractions (73) :
+## List of all Abstractions (75) :
 
 #### AUDIO OPERATORS
   * `aaaaaaaaaaand` (it's got 11 A's)
@@ -22,7 +22,6 @@
   * `summer5to1`
   * `switchh`
   * `noorm`
-  * `vool`
 
 
 #### TEMPO
@@ -39,12 +38,15 @@
 
 #### UTILITIES
   * `oout`
+  * `ooout`
   * `moono`
   * `leeft`
   * `riight`
   * `steereo`
   * `boot`
   * `__starter`
+  * `volbar`
+  * `vool` (old version of volbar)
   * `zed`
   * `incc`
   * `ar`

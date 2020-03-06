@@ -1,0 +1,19 @@
+#N canvas 658 433 450 300 10;
+#X obj 29 196 dac~;
+#X obj 28 47 catch~ stereoL;
+#X obj 49 68 catch~ moono;
+#X obj 64 89 catch~ stereoR;
+#X msg 4 3 version "202003061027";
+#X obj 150 10 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 53 157 *~ 0;
+#X obj 17 151 *~ 0;
+#X connect 1 0 7 0;
+#X connect 2 0 7 0;
+#X connect 2 0 6 0;
+#X connect 3 0 6 0;
+#X connect 5 0 7 1;
+#X connect 5 0 6 1;
+#X connect 6 0 0 1;
+#X connect 7 0 0 0;
+#X coords 0 -1 1 1 15 15 1 150 10;
