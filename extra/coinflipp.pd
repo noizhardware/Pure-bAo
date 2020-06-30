@@ -32,6 +32,10 @@
 #X obj 234 454 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 286 287 0.5;
+#X obj 79 -9 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 23 -34 metroo 500;
+#X obj 320 337 ii 0.5;
 #X connect 0 0 5 0;
 #X connect 1 0 0 0;
 #X connect 2 0 0 1;
@@ -54,5 +58,6 @@
 #X connect 22 0 13 1;
 #X connect 22 0 16 1;
 #X connect 26 0 3 0;
-#X connect 30 0 13 1;
-#X connect 30 0 16 1;
+#X connect 31 0 4 0;
+#X connect 33 0 13 1;
+#X connect 33 0 16 1;

@@ -1,4 +1,4 @@
-#N canvas 439 294 838 958 10;
+#N canvas 882 218 838 958 10;
 #X obj 152 77 samphold~;
 #X obj 152 50 noise~;
 #X obj 203 50 vline~;
@@ -20,17 +20,8 @@
 #X text 54 51 noise source >>;
 #X obj 251 157 loadbang;
 #X text 294 183 << initialize probability at 50%;
-#X obj 232 245 / 100;
 #X text 16 234 analog to digital >>;
 #X obj 360 140 inlet;
-#X text 397 140 << probability (0-100);
-#X obj 283 255 > 100;
-#X obj 283 276 select 1;
-#X msg 283 297 100;
-#X obj 347 276 select 1;
-#X obj 347 255 < 0;
-#X msg 347 297 0;
-#X obj 284 228 split 0 100;
 #X text 395 256 << if <0 then 0 || if >100 then 100;
 #X obj 79 359 outlet;
 #X obj 493 387 outlet;
@@ -39,12 +30,17 @@
 #X text 419 79 quando usato in un altra patch butta fuori sempore solo
 a DX;
 #X obj 290 10 loadbang;
-#X obj 59 109 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 1550 1;
-#X obj 71 164 / 1.27;
-#X text 62 96;
-#X msg 250 180 63.5;
-#X obj 359 165 * 1.27;
+#X obj 59 109 knob 32 32 0 1 0 0 empty empty empty 0 -8 0 8 4.24578e+007
+4.24574e+007 4.24574e+007 1100 1;
+#X text 62 96 comment;
+#X msg 250 180 0.5;
+#X text 397 140 << probability (0-1);
+#X obj 160 342 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 227 335 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 51 -15 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
 #X connect 0 0 5 0;
 #X connect 1 0 0 0;
 #X connect 2 0 0 1;
@@ -56,27 +52,18 @@ a DX;
 #X connect 12 0 13 0;
 #X connect 12 0 16 0;
 #X connect 13 0 14 0;
-#X connect 14 0 33 0;
-#X connect 15 0 34 0;
+#X connect 14 0 24 0;
+#X connect 14 0 34 0;
+#X connect 15 0 25 0;
+#X connect 15 0 35 0;
 #X connect 16 0 15 0;
 #X connect 17 0 12 0;
 #X connect 17 1 3 0;
-#X connect 19 0 42 0;
-#X connect 21 0 16 1;
-#X connect 21 0 13 1;
-#X connect 23 0 43 0;
-#X connect 25 0 26 0;
-#X connect 26 0 27 0;
-#X connect 27 0 21 0;
-#X connect 28 0 30 0;
-#X connect 29 0 28 0;
-#X connect 30 0 21 0;
-#X connect 31 0 21 0;
-#X connect 31 1 29 0;
-#X connect 31 1 25 0;
-#X connect 38 0 3 0;
-#X connect 39 0 40 0;
-#X connect 40 0 31 0;
-#X connect 42 0 39 0;
-#X connect 43 0 39 0;
+#X connect 19 0 32 0;
+#X connect 22 0 30 0;
+#X connect 29 0 3 0;
+#X connect 30 0 13 1;
+#X connect 30 0 16 1;
+#X connect 32 0 30 0;
+#X connect 36 0 4 0;
 #X coords 0 -1 1 1 50 50 2 50 100;
