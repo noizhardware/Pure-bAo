@@ -1,0 +1,22 @@
+#N canvas 819 653 658 315 10;
+#X obj 158 41 inlet~;
+#X obj 157 144 outlet~;
+#X obj 194 62 r \$0-vool;
+#X obj 279 40 inlet;
+#X obj 279 70 s \$0-set-vool;
+#X msg 335 40 1;
+#X obj 335 18 loadbang;
+#X obj 319 146 vline~;
+#X obj 157 92 *~;
+#X msg 337 112 \$1 50;
+#X obj 11 91 knob 32 32 0 127 0 0 \$0-vool \$0-set-vool empty 0 -8
+0 8 4.226e+007 4.226e+007 4.226e+007 24 1;
+#X connect 0 0 8 0;
+#X connect 2 0 9 0;
+#X connect 3 0 4 0;
+#X connect 5 0 4 0;
+#X connect 6 0 5 0;
+#X connect 7 0 8 1;
+#X connect 8 0 1 0;
+#X connect 9 0 7 0;
+#X coords 0 -1 1 1 33 33 1 10 90;

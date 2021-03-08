@@ -1,0 +1,18 @@
+#N canvas 315 319 450 300 10;
+#X obj 92 52 inlet~;
+#X obj 92 73 *~ 2;
+#X obj 92 187 outlet~;
+#X obj 92 115 tanh~;
+#X obj 232 63 noise~;
+#X obj 92 94 +~;
+#X text 208 17 just for experimenting with feedback;
+#X obj 92 136 delwrite~ \$0-bigmuff00 1;
+#X obj 90 155 delread~ \$0-bigmuff00 1;
+#X obj 232 84 *~ 1e-008, f 21;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 3 0 7 0;
+#X connect 4 0 9 0;
+#X connect 5 0 3 0;
+#X connect 8 0 2 0;
+#X connect 9 0 5 1;

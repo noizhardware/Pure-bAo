@@ -1,0 +1,17 @@
+#N canvas 0 50 412 309 10;
+#X obj 84 125 t f b;
+#X obj 117 180 f;
+#X msg 0 0 version "2021c08-0933";
+#X obj 200 44 f \$1;
+#X obj 200 20 loadbang;
+#X obj 117 159 del 0;
+#X obj 69 84 inlet;
+#X text 258 122 delay for numbers;
+#X obj 117 201 outlet;
+#X connect 0 0 1 1;
+#X connect 0 1 5 0;
+#X connect 1 0 8 0;
+#X connect 3 0 5 1;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 6 0 0 0;

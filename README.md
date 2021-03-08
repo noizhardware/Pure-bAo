@@ -47,6 +47,7 @@
   * `__starter`
   * `volbar`
   * `vool` (old version of volbar)
+  * `voolk` (knob version)
   * `zed`
   * `incc`
   * `ar`
