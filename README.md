@@ -68,7 +68,7 @@
   * `skoop`
   * `skop` (doesn't work with vanilla)
   * `stderr`
-
+  * `simpleth` simple threshold
 
 #### LOGIC
   * `every`
@@ -95,7 +95,7 @@
 #### ELEMENTS FOR NEURAL NETWORKS
   * `neuron01`
   * `neuron3_A`
-  * `neuron4_A`
+  * `neuron4_A` `neuron4_As` `neuron4_Ad`
   * `nnh_leakyrelu`
   * `nnh_ramp`
   * `nnh_softplus`

@@ -1,24 +1,24 @@
 #N canvas 548 0 2003 1348 10;
 #X obj 528 725 *~ 0;
-#X obj 136 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.45457e+007
-4.43264e+007 4.4546e+007 0 1;
+#X obj 136 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 2.19097e+007
+2.19097e+007 2.19097e+007 0 1;
 #X obj 450 725 *~ 0;
-#X obj 109 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.45457e+007
-4.43264e+007 4.4546e+007 900 1;
+#X obj 109 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 2.19097e+007
+2.19097e+007 2.19097e+007 800 1;
 #X obj 613 725 *~ 0;
-#X obj 164 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.45457e+007
-4.43264e+007 4.4546e+007 0 1;
+#X obj 164 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 2.19097e+007
+2.19097e+007 2.19097e+007 0 1;
 #X obj 514 776 +~;
 #X obj 514 797 +~;
 #X obj 1156 709 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 134 145 vsl 15 64 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 6300 1;
+-1 -1 4327 1;
 #X obj 680 922 atod;
 #X obj 1152 669 threshold~;
 #X floatatom 1176 498 5 0 0 0 - - -;
 #X obj 202 144 vsl 15 64 -1 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+-1 -1 3900 1;
 #X obj 1188 576 pack f f;
 #X msg 1187 617 set \$1 100 \$2 100;
 #X obj 1195 715 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -29,8 +29,8 @@
 #X obj 449 599 inlet~;
 #X obj 526 599 inlet~;
 #X obj 614 599 inlet~;
-#X obj 156 262 knob 26 26 0 2000 0 0 empty empty empty 0 -8 0 8 4.45457e+007
-4.43264e+007 4.4546e+007 0 1;
+#X obj 156 262 knob 26 26 0 2000 0 0 empty empty empty 0 -8 0 8 2.19097e+007
+2.19097e+007 2.19097e+007 0 1;
 #X floatatom 109 271 5 0 0 0 - - -;
 #X text 116 254 ms;
 #X obj 1137 835 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -43,19 +43,19 @@
 #X obj 1183 793 del 0;
 #X obj 151 238 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
-#X obj 246 159 knob 20 20 -1 1 0 0 empty empty empty 0 -8 0 8 4.45457e+007
-4.45457e+007 4.45457e+007 0 1;
+#X obj 246 159 knob 20 20 -1 1 0 0 empty empty empty 0 -8 0 8 2.19097e+007
+2.19097e+007 2.19097e+007 950 1;
 #X text 232 179 -1;
 #X text 263 179 1;
 #X text 273 150 bias;
-#X obj 220 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.45457e+007
-4.43264e+007 4.4546e+007 0 1;
-#X obj 192 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.45457e+007
-4.43264e+007 4.4546e+007 0 1;
-#X obj 249 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.45457e+007
-4.43264e+007 4.4546e+007 0 1;
-#X obj 277 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.45457e+007
-4.43264e+007 4.4546e+007 0 1;
+#X obj 220 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 2.19097e+007
+2.19097e+007 2.19097e+007 0 1;
+#X obj 192 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 2.19097e+007
+2.19097e+007 2.19097e+007 0 1;
+#X obj 249 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 2.19097e+007
+2.19097e+007 2.19097e+007 0 1;
+#X obj 277 108 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 2.19097e+007
+2.19097e+007 2.19097e+007 0 1;
 #X obj 774 725 *~ 0;
 #X obj 696 725 *~ 0;
 #X obj 859 725 *~ 0;
@@ -91,7 +91,7 @@
 -1 -1;
 #X text 195 283 zero;
 #X msg 309 388 0;
-#X obj 1146 971 outlet;
+#X obj 1195 966 outlet;
 #X obj 1000 1134 outlet~;
 #X obj 1067 956 vline~;
 #X obj 1007 982 *~;
@@ -112,7 +112,9 @@
 #X text 835 154 activation: upward crossing of threshold;
 #X obj 1019 599 inlet;
 #X text 1007 574 LEAK parameter override;
-#X text 1208 966 activation trigger;
+#X obj 1086 995 outlet;
+#X text 1128 998 activation trigger;
+#X text 1237 962 activation gate;
 #X connect 0 0 6 1;
 #X connect 1 0 61 0;
 #X connect 2 0 6 0;
@@ -145,6 +147,7 @@
 #X connect 22 0 28 1;
 #X connect 22 0 29 1;
 #X connect 25 0 17 0;
+#X connect 25 0 91 0;
 #X connect 26 0 17 0;
 #X connect 28 0 25 0;
 #X connect 29 0 26 0;
